@@ -9,6 +9,7 @@
 Difficulty: Easy
 OS: Linux
 Points: 5
+Released: 16 Sep 2020
 ```
 
 ## Solution
