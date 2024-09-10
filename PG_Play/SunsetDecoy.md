@@ -304,7 +304,7 @@ Your flag is in another file...
 5<REDACTED>4
 ```
 
-### Privilege escalation
+### Enumeration
 
 Let's start our enumeration by checking out the honeypot related files in the user's home directory
 ```bash
