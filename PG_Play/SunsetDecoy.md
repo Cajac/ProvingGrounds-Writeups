@@ -469,7 +469,7 @@ Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/SunsetDecoy/33899.txt
 ```
 Yes, there is - a local privesc.
 
-### Run the exploit
+### Examine the exploit
 
 To run the exploit we need to create an `update` file that gets executed
 ```bash
