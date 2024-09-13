@@ -4,4 +4,5 @@
 
 ## Easy Machines
 
+- [CyberSploit1](CyberSploit1.md)
 - [SunsetDecoy](SunsetDecoy.md)
