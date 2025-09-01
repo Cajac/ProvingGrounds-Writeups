@@ -4,5 +4,9 @@
 
 ## Easy Machines
 
+### Easy Linux Machines
+
 - [CyberSploit1](CyberSploit1.md)
+- [FunboxRookie](FunboxRookie.md)
+- [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
