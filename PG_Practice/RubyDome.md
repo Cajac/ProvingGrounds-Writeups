@@ -10,7 +10,7 @@
 Difficulty: Easy
 Community Rating: Intermediate
 OS: Linux
-Points: 5
+Points: 10
 Description:
 In this lab, we will perform web enumeration to identify potential attack vectors. We will then exploit 
 discovered vulnerabilities to gain initial access. Privilege escalation will be achieved by abusing 

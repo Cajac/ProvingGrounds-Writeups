@@ -6,4 +6,5 @@
 
 ### Easy Linux Machines
 
+- [Hawat](Hawat.md)
 - [RubyDome](RubyDome.md)
