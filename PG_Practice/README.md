@@ -4,4 +4,6 @@
 
 ## Easy Machines
 
-- [XXXX](XXXX.md)
+### Easy Linux Machines
+
+- [RubyDome](RubyDome.md)
