@@ -6,5 +6,6 @@
 
 ### Easy Linux Machines
 
+- [Astronaut](Astronaut.md)
 - [Hawat](Hawat.md)
 - [RubyDome](RubyDome.md)
