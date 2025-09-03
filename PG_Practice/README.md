@@ -12,4 +12,5 @@
 
 ### Easy Windows Machines
 
+- [Compromised](Compromised.md)
 - [Kevin](Kevin.md)

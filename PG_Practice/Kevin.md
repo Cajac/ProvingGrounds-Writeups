@@ -9,8 +9,9 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
-OS: Linux
+OS: Windows
 Points: 10
+Number of Flags: 1
 Description:
 Engage in leveraging default credentials and a public exploit against HP Power Manager. This process will 
 include successfully exploiting the application using a public Metasploit module. This activity enhances 
@@ -93,7 +94,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 127.96 seconds
 ```
 
-We have two services running and available:
+We have six main services running and available:
 
 - GoAhead WebServer running on port 80
 - Microsoft RPC running on port 135
