@@ -13,4 +13,5 @@
 ### Easy Windows Machines
 
 - [Compromised](Compromised.md)
+- [Internal](Internal.md)
 - [Kevin](Kevin.md)
