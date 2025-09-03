@@ -9,3 +9,7 @@
 - [Astronaut](Astronaut.md)
 - [Hawat](Hawat.md)
 - [RubyDome](RubyDome.md)
+
+### Easy Windows Machines
+
+- [Kevin](Kevin.md)
