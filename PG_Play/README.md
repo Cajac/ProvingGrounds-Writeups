@@ -11,3 +11,7 @@
 - [FunboxRookie](FunboxRookie.md)
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
+
+### Easy Windows Machines
+
+- [Sams](Sams.md)
