@@ -557,10 +557,8 @@ We verify the download by checking the Downloads directory
 
  Directory of C:\Users\mike\Downloads
 
-09/29/2025  09:27 AM    
-          .
-09/29/2025  09:27 AM    
-          ..
+09/29/2025  09:27 AM              .
+09/29/2025  09:27 AM              ..
 09/29/2025  09:27 AM            45,272 nc64.exe
                1 File(s)         45,272 bytes
                2 Dir(s)   6,934,761,472 bytes free
@@ -726,16 +724,6 @@ C:\xampp\htdocs\blog\engine> type Security.php
 type Security.php
 <?php defined('MONSTRA_ACCESS') or die('No direct script access.');
 
-/**
- * Monstra
- *
- * @package Monstra
- * @author Romanenko Sergey / Awilum <awilum@msn.com>
- * @link http://monstra.org
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
 <---snip--->
     public static function encryptPassword($password)
     {
@@ -825,7 +813,7 @@ Now that we have Mike's credentials, we can connect with RDP
 
 ### Continue enumeration
 
-Checking the XAMPP-version, we find that is `7.3.10`
+Checking the XAMPP-version, we find that it is `7.3.10`
 
 ```bat
 C:\xampp> type properties.ini
@@ -1064,6 +1052,8 @@ For additional information, please see the references below.
 
 ## References
 
+- [Burp suite - Documentation](https://portswigger.net/burp/documentation)
+- [Burp suite - Homepage](https://portswigger.net/burp)
 - [CeWL - GitHub](https://github.com/digininja/CeWL)
 - [cewl - Kali Tools](https://www.kali.org/tools/cewl/)
 - [curl - Homepage](https://curl.se/)
