@@ -12,6 +12,7 @@
 
 ### Easy Windows Machines
 
+- [Algernon](Algernon.md)
 - [Compromised](Compromised.md)
 - [Internal](Internal.md)
 - [Kevin](Kevin.md)
