@@ -11,6 +11,7 @@
 - [FunboxRookie](FunboxRookie.md)
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
+- [Vegeta1](Vegeta1.md)
 
 ### Easy Windows Machines
 
