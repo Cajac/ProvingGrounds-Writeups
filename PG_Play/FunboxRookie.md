@@ -9,17 +9,18 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 5
-Description:
-Utilize enumeration, web enumeration, and FTP enumeration techniques to identify vulnerabilities. 
-Engage in brute force attacks and implement privilege escalation strategies. Additionally, 
-harness methods for escaping restricted shells and the abuse of sudo permissions to enhance your 
-access. This lab is designed to capitalize on your skills in vulnerability exploitation.
+Lab Description:
+In this lab, an anonymous FTP server leaks a password-protected archive containing a private SSH key. 
+The key allows initial access to the system, which is further exploited by recovering user credentials 
+from a MySQL history file. Privilege escalation is achieved by exploiting unrestricted sudo access 
+for the user.
 Released: 2 Nov 2020
-
-Credentials: tom:xx11yy22!
 ```
+
+Machine link: [https://portal.offsec.com/machine/funboxrookie-467/overview/details](https://portal.offsec.com/machine/funboxrookie-467/overview/details)
 
 ## Solution
 

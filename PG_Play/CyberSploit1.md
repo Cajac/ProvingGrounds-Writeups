@@ -9,14 +9,18 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 5
-Description:
-Utilize enumeration and web enumeration techniques to identify vulnerabilities. Engage in privilege 
-escalation strategies and leverage kernel exploitation methods to enhance your access. This lab is 
-designed to capitalize on your skills in vulnerability exploitation.
+Lab Description:
+In this lab, attackers exploit weak credentials disclosed through a web application to gain SSH access 
+to the system. Once a foothold is established, local privilege escalation is achieved by exploiting a 
+vulnerable Linux kernel version (3.13.0-32-generic) using the overlayfs exploit. This lab highlights 
+the importance of secure password management and keeping systems updated to prevent known kernel exploits.
 Released: 6 Oct 2020
 ```
+
+Machine link: [https://portal.offsec.com/machine/cybersploit1-425/overview/details](https://portal.offsec.com/machine/cybersploit1-425/overview/details)
 
 ## Solution
 

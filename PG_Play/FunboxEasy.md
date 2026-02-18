@@ -9,17 +9,18 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 5
-Description:
-Utilize enumeration and web enumeration techniques to identify vulnerabilities. Engage in exploiting 
-SQL injection and file upload vulnerabilities, along with implementing privilege escalation strategies. 
-Additionally, harness the abuse of sudo permissions to enhance your access. This lab is designed to 
-capitalize on your skills in vulnerability exploitation.
+Lab Description:
+This lab involves exploiting an SQL Injection vulnerability to leak credentials for a web application, 
+leading to a file upload vulnerability that provides initial access. Privilege escalation is achieved 
+via user password disclosure and multiple sudo misconfigurations, ultimately granting root access 
+through tools like pkexec or time.
 Released: 16 Nov 2020
-
-Credentials: tony:yxcvbnmYYY
 ```
+
+Machine link: [https://portal.offsec.com/machine/funboxeasy-497/overview/details](https://portal.offsec.com/machine/funboxeasy-497/overview/details)
 
 ## Solution
 

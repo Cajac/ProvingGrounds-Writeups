@@ -9,14 +9,18 @@
 ```text
 Difficulty: Easy
 Community Rating: Hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 5
-Description:
-Employ enumeration and web enumeration techniques to identify vulnerabilities. Engage in exploiting LFI 
-vulnerabilities and implement privilege escalation strategies to enhance your access. This lab is 
-designed to capitalize on your skills in vulnerability exploitation.
+Lab Description:
+In this lab, attackers combine a Local File Inclusion (LFI) vulnerability with a log poisoning 
+attack to gain remote code execution. By leveraging world-writable file permissions on a PHP 
+script executed by a root-level process, they escalate privileges to obtain a root shell. This 
+scenario highlights the dangers of misconfigured web servers and file permissions.
 Released: 25 Aug 2020
 ```
+
+Machine link: [https://portal.offsec.com/machine/solstice-319/overview/details](https://portal.offsec.com/machine/solstice-319/overview/details)
 
 ## Solution
 

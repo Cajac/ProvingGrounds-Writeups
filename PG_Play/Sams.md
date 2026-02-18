@@ -9,15 +9,17 @@
 ```text
 Difficulty: Easy
 Community Rating: Very hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 5
-Description:
-Deploy enumeration and web enumeration techniques to discover system vulnerabilities. Capitalize 
-on exploiting Schilix to gain an initial foothold. Implement privilege escalation tactics and 
-use hive dumping to extract critical information. This lab is designed to harness your 
-exploitation and privilege escalation skills.
+Lab Description:
+In this lab, you will exploit an authenticated remote code execution vulnerability in SCHLIX 
+CMS 2.2.6-6 to gain initial access to the lab. You will then escalate privileges using the 
+HiveNightmare vulnerability to retrieve sensitive registry hive files and achieve SYSTEM access.
 Released: 28 Mar 2023
 ```
+
+Machine link: [https://portal.offsec.com/machine/sams-49073/overview/details](https://portal.offsec.com/machine/sams-49073/overview/details)
 
 ## Solution
 

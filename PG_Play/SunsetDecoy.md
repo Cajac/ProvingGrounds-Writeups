@@ -9,14 +9,17 @@
 ```text
 Difficulty: Easy
 Community Rating: Hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 5
-Description:
-Employ enumeration and web enumeration techniques to identify vulnerabilities. Engage in password cracking 
-and implement privilege escalation strategies. Additionally, utilize process monitoring to enhance your 
-access. This lab is designed to capitalize on your skills in vulnerability exploitation.
+Lab Description:
+In this lab, the target is exploited through a leaked backup of /etc/shadow, which is cracked to 
+obtain user credentials. Privilege escalation is achieved by exploiting a known local 
+vulnerability in Chkrootkit v0.49 that allows arbitrary command execution as root.
 Released: 16 Sep 2020
 ```
+
+Machine link: [https://portal.offsec.com/machine/sunsetdecoy-419/overview/details](https://portal.offsec.com/machine/sunsetdecoy-419/overview/details)
 
 ## Solution
 
