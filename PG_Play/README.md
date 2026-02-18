@@ -7,6 +7,7 @@
 ### Easy Linux Machines
 
 - [CyberSploit1](CyberSploit1.md)
+- [Dawn](Dawn.md)
 - [FunboxEasy](FunboxEasy.md)
 - [FunboxRookie](FunboxRookie.md)
 - [Solstice](Solstice.md)
