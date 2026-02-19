@@ -13,6 +13,7 @@
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
 - [Vegeta1](Vegeta1.md)
+- [Wpwn](Wpwn.md)
 
 ### Easy Windows Machines
 
