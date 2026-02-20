@@ -208,9 +208,49 @@ Disallow: /?q=user/login/
 Disallow: /?q=user/logout/
 ```
 
+### Scan Drupal with droopescan
+
+Next, we can scan Drupal with droopescan
+
+```bash
+┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Play/Easy/DC-1]
+└─$ source ~/Python_venvs/Python3.10/bin/activate    
+
+┌──(Python3.10)─(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Play/Easy/DC-1]
+└─$ droopescan scan drupal -u http://$TARGET_IP/ -t 32
+[+] Plugins found:                                                              
+    ctools http://192.168.199.193/sites/all/modules/ctools/
+        http://192.168.199.193/sites/all/modules/ctools/LICENSE.txt
+        http://192.168.199.193/sites/all/modules/ctools/API.txt
+    views http://192.168.199.193/sites/all/modules/views/
+        http://192.168.199.193/sites/all/modules/views/README.txt
+        http://192.168.199.193/sites/all/modules/views/LICENSE.txt
+    profile http://192.168.199.193/modules/profile/
+    php http://192.168.199.193/modules/php/
+    image http://192.168.199.193/modules/image/
+
+[+] Themes found:
+    seven http://192.168.199.193/themes/seven/
+    garland http://192.168.199.193/themes/garland/
+
+[+] Possible version(s):
+    7.22
+    7.23
+    7.24
+    7.25
+    7.26
+
+[+] Possible interesting urls found:
+    Default admin - http://192.168.199.193/user/login
+
+[+] Scan finished (0:05:26.944394 elapsed)
+```
+
+Now we have a better understanding of the likely version.
+
 ### Search for an exploit
 
-Let's see if there are any available exploits for Drupal version 7
+Let's see if there are any available exploits for Drupal version 7.22-7.26
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Play/Easy/DC-1]
@@ -429,6 +469,8 @@ For additional information, please see the references below.
 - [curl - Homepage](https://curl.se/)
 - [curl - Linux manual page](https://man7.org/linux/man-pages/man1/curl.1.html)
 - [cURL - Wikipedia](https://en.wikipedia.org/wiki/CURL)
+- [droopescan - GitHub](https://github.com/SamJoan/droopescan)
+- [droopescan - PyPI](https://pypi.org/project/droopescan/)
 - [Drupal - Wikipedia](https://en.wikipedia.org/wiki/Drupal)
 - [find - Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
 - [find - GTFOBins](https://gtfobins.org/gtfobins/find/)
