@@ -93,7 +93,7 @@ In the HTML-source we find the major version of Drupal
 <!---snip--->
 ```
 
-We can also run some basic HTTP-enumeration with nmap
+We can also do some basic HTTP-enumeration with nmap
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Play/Easy/DC-1]
