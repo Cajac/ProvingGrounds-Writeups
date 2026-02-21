@@ -310,7 +310,7 @@ touch /tmp/gateway
 www-data@sar:/var/www/html$ 
 ```
 
-The `finally.sh` script isn't writable to us, bu it calls `write.sh` which are!
+The `finally.sh` script isn't writable to us, bu it calls `write.sh` which is!
 
 ### Get a root reverse shell
 
@@ -392,7 +392,7 @@ root@sar:/var/www/html#
 
 ### Get the root flag
 
-Finally, we get the root flag
+Finally, we can get the root flag
 
 ```bash
 root@sar:/var/www/html# cd /root
