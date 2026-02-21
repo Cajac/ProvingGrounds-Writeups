@@ -11,6 +11,7 @@
 - [DC-1](DC-1.md)
 - [FunboxEasy](FunboxEasy.md)
 - [FunboxRookie](FunboxRookie.md)
+- [OnSystemShellDredd](OnSystemShellDredd.md)
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
 - [Vegeta1](Vegeta1.md)
