@@ -11,6 +11,7 @@
 - [DC-1](DC-1.md)
 - [FunboxEasy](FunboxEasy.md)
 - [FunboxRookie](FunboxRookie.md)
+- [Gaara](Gaara.md)
 - [InfosecPrep](InfosecPrep.md)
 - [OnSystemShellDredd](OnSystemShellDredd.md)
 - [Sar](Sar.md)
