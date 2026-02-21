@@ -15,6 +15,7 @@
 - [Sar](Sar.md)
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
+- [SunsetNoontide](SunsetNoontide.md)
 - [Vegeta1](Vegeta1.md)
 - [Wpwn](Wpwn.md)
 
