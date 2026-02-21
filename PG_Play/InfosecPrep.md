@@ -464,3 +464,5 @@ For additional information, please see the references below.
 - [ssh - Linux manual page](https://man7.org/linux/man-pages/man1/ssh.1.html)
 - [sudo - Linux manual page](https://man7.org/linux/man-pages/man8/sudo.8.html)
 - [sudo - Wikipedia](https://en.wikipedia.org/wiki/Sudo)
+- [WordPress - Wikipedia](https://en.wikipedia.org/wiki/WordPress)
+
