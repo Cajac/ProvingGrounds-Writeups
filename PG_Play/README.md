@@ -6,6 +6,7 @@
 
 ### Easy Linux Machines
 
+- [ColdBoxEasy](ColdBoxEasy.md)
 - [CyberSploit1](CyberSploit1.md)
 - [Dawn](Dawn.md)
 - [DC-1](DC-1.md)
