@@ -13,6 +13,7 @@
 - [FunboxRookie](FunboxRookie.md)
 - [Gaara](Gaara.md)
 - [InfosecPrep](InfosecPrep.md)
+- [Moneybox](Moneybox.md)
 - [OnSystemShellDredd](OnSystemShellDredd.md)
 - [Sar](Sar.md)
 - [Solstice](Solstice.md)
