@@ -9,15 +9,19 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 1
-Description:
-In this lab, exploit a vulnerability in an outdated version of the Microsoft Windows SMB server 
-(CVE-2009-3103), discovered through a fingerprinting scan of network services. This exercise 
-enhances your skills in vulnerability detection and exploiting network service weaknesses.
+Lab Description:
+This lab allows Learners to exploit the SMBv2 negotiation vulnerability (CVE-2009-3103) on a Windows 
+Server 2008 system. Learners will leverage the Metasploit framework to execute this vulnerability, 
+bypassing authentication to obtain a SYSTEM-level shell. This challenge highlights the importance 
+of patching legacy systems and the risks associated with unpatched SMB services.
 Released: 3 Aug 2020
 ```
+
+Machine link: [https://portal.offsec.com/machine/internal-169/overview/details](https://portal.offsec.com/machine/internal-169/overview/details)
 
 ## Solution
 

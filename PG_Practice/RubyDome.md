@@ -9,17 +9,19 @@
 ```text
 Difficulty: Easy
 Community Rating: Intermediate
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 10
-Description:
-In this lab, we will perform web enumeration to identify potential attack vectors. We will then exploit 
-discovered vulnerabilities to gain initial access. Privilege escalation will be achieved by abusing 
-sudo permissions, allowing us to gain elevated access on the system. This lab focuses on web enumeration 
-techniques and methods for privilege escalation through misconfigured sudo settings.
+Lab Description:
+This lab demonstrates exploiting a Remote Code Execution (RCE) vulnerability in the PDFKit gem (CVE-2022-25765) 
+used in a RubyDome HTML-to-PDF conversion service. Privilege escalation is achieved by leveraging a sudo 
+misconfiguration that allows the andrew user to execute a Ruby script (app.rb) with root privileges. By 
+injecting a malicious payload into the script, learners gain a root shell. The lab highlights command injection, 
+sudo privilege abuse, and RCE chaining for full system compromise.
 Released: 16 Jun 2023
-
-Credentials: andrew:Regulate-Staining-Unwitting2
 ```
+
+Machine link: [https://portal.offsec.com/machine/rubydome-50401/overview/details](https://portal.offsec.com/machine/rubydome-50401/overview/details)
 
 ## Solution
 

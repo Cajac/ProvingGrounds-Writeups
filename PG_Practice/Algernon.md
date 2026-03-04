@@ -9,15 +9,19 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 1
-Description:
-In this lab, we will exploit a remote code execution vulnerability in build 6985 of the SmarterMail 
-application. This exercise enhances your skills in identifying and exploiting vulnerabilities for 
-gaining access to systems.
+Lab Description:
+This lab demonstrates exploiting a remote code execution vulnerability in SmarterMail build 6985 to gain 
+SYSTEM-level access on a Windows server. Learners will identify the application version, leverage an RCE 
+exploit, and use a reverse shell payload to compromise the target. This lab emphasizes web application 
+exploitation and highlights the risks of unpatched software.
 Released: 3 Aug 2020
 ```
+
+Machine link: [https://portal.offsec.com/machine/algernon-239/overview/details](https://portal.offsec.com/machine/algernon-239/overview/details)
 
 ## Solution
 

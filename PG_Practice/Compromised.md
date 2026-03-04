@@ -9,15 +9,19 @@
 ```text
 Difficulty: Easy
 Community Rating: Very hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 2
-Description:
-In this lab, we'll leverage exposed credentials in an SMB share to compromise this target, 
-enabling us to escalate our privileges to Administrator by employing an obfuscated 
-PowerShell command for password exposure.
+Lab Description:
+This lab demonstrates exploiting an SMB share to discover credentials encoded within PowerShell scripts. 
+Learners will decode the credentials, gain access to the target system via WinRM, and escalate privileges 
+to Administrator by deobfuscating and executing PowerShell commands to retrieve a hidden password. The 
+lab emphasizes SMB enumeration, PowerShell analysis, and credential exploitation.
 Released: 26 Jul 2021
 ```
+
+Machine link: [https://portal.offsec.com/machine/compromised-17336/overview/details](https://portal.offsec.com/machine/compromised-17336/overview/details)
 
 ## Solution
 

@@ -9,17 +9,18 @@
 ```text
 Difficulty: Easy
 Community Rating: Intermediate
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 10
-Description:
-An Unauthenticated Arbitrary YAML Write/Update vulnerability in Grav CMS will be exploited to gain an 
-initial foothold, leading to remote code execution (RCE). Privilege escalation will be achieved by 
-identifying a vulnerable PHP SUID binary. This lab focuses on exploiting vulnerabilities and 
-privilege escalation methods.
+Lab Description:
+This lab demonstrates exploiting an unauthenticated arbitrary YAML write/update vulnerability in Grav 
+CMS to achieve Remote Code Execution (RCE). Learners escalate privileges by leveraging a SUID-enabled 
+php7.4 binary, which allows command execution as root. This lab highlights misconfigured CMS systems, 
+RCE exploitation via YAML manipulation, and SUID abuse for privilege escalation.
 Released: 6 Apr 2023
-
-Credentials: alex:thebestsysadmin@13231
 ```
+
+Machine link: [https://portal.offsec.com/machine/astronaut-49479/overview/details](https://portal.offsec.com/machine/astronaut-49479/overview/details)
 
 ## Solution
 

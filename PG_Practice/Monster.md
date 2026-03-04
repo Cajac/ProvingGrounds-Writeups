@@ -9,17 +9,20 @@
 ```text
 Difficulty: Easy
 Community Rating: Very hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 2
-Description:
-A foothold on the target system will be gained by leveraging a weak password to access the CMS 
-Admin panel. From there, the CMS backup system will be accessed, revealing crackable password 
-hashes that lead to low-privilege access. Privileges will then be elevated to the Administrator 
-account by manipulating writable XAMPP configuration files. This lab focuses on exploiting 
-weak authentication and privilege escalation methods.
+Lab Description:
+This lab demonstrates leveraging a weak password to access Monstra CMS, extracting password hashes from 
+its backup system, and cracking them to gain RDP access. Privilege escalation is achieved by exploiting 
+a writable xampp-control.ini file to inject a reverse shell payload, triggered upon interaction with 
+the XAMPP Control Panel by an administrator. This lab emphasizes web application exploitation, credential 
+cracking, and local privilege escalation through misconfigured services.
 Released: 7 Mar 2022
 ```
+
+Machine link: [https://portal.offsec.com/machine/monster-37024/overview/details](https://portal.offsec.com/machine/monster-37024/overview/details)
 
 ## Solution
 

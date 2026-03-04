@@ -9,18 +9,20 @@
 ```text
 Difficulty: Easy
 Community Rating: Easy
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 1
-Description:
-Engage in leveraging default credentials and a public exploit against HP Power Manager. This process will 
-include successfully exploiting the application using a public Metasploit module. This activity enhances 
-your skills in exploiting vulnerabilities and utilizing available tools for effective system access.
+Lab Description:
+This lab focuses on exploiting a buffer overflow vulnerability in HP Power Manager v4.2 Build 7 to 
+achieve remote code execution. Learners will use both a Python-based exploit and a Metasploit 
+module to gain SYSTEM-level access on a Windows 7 machine. The exercise highlights buffer overflow 
+exploitation and the risks of using default credentials.
 Released: 3 Aug 2020
 Retired: 1 Oct 2022
-
-Credentials: kevin:f8uHwN88Sx
 ```
+
+Machine link: [https://portal.offsec.com/machine/kevin-189/overview/details](https://portal.offsec.com/machine/kevin-189/overview/details)
 
 ## Solution
 

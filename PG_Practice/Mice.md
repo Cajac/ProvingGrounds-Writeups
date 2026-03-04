@@ -9,16 +9,20 @@
 ```text
 Difficulty: Easy
 Community Rating: Hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
 Points: 10
 Number of Flags: 2
-Description:
-In this lab, the RemoteMouse 3.008 exploit will be used on port 1978 for remote code execution, capturing 
-a reverse shell with Netcat. After decoding the FileZilla password, we will log in via Remote Desktop and 
-open a Command Prompt as an administrator. This lab focuses on exploiting service vulnerabilities and 
-privilege escalation methods.
+Lab Description:
+This lab demonstrates exploiting RemoteMouse 3.008 to achieve remote code execution via a modified exploit 
+that delivers a reverse shell. Learners will escalate privileges by extracting and decoding credentials 
+from FileZilla's configuration files, gaining RDP access as a user. Finally, they will exploit the 
+RemoteMouse application's admin privileges to spawn a Command Prompt as Administrator. This lab emphasizes 
+RCE, credential exploitation, and leveraging application misconfigurations for privilege escalation.
 Released: 9 May 2022
 ```
+
+Machine link: [https://portal.offsec.com/machine/mice-38178/overview/details](https://portal.offsec.com/machine/mice-38178/overview/details)
 
 ## Solution
 

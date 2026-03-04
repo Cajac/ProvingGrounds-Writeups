@@ -9,16 +9,19 @@
 ```text
 Difficulty: Easy
 Community Rating: Very Hard
+Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
 Points: 10
-Description:
-In this lab, you will discover the source code for an application, and by analyzing it, you will 
-identify an SQL injection vulnerability that can be exploited to gain remote code execution on 
-the machine, ultimately leading to a root shell, employing techniques to recognize and exploit 
-SQL injection vulnerabilities to escalate privileges effectively.
+Lab Description:
+This lab demonstrates leveraging an SQL injection vulnerability in a Java Spring application to gain remote 
+code execution. Learners will write a web shell to the server’s web root using a UNION SELECT-based SQL 
+injection. The lab culminates in achieving a reverse shell as root by transferring a crafted payload, 
+highlighting SQL injection exploitation, web shell deployment, and privilege escalation techniques.
 Released: 8 Jun 2021
-Retired: 18 May 2023
+Retired: 18 May 2022
 ```
+
+Machine link: [https://portal.offsec.com/machine/hawat-15710/overview/details](https://portal.offsec.com/machine/hawat-15710/overview/details)
 
 ## Solution
 
