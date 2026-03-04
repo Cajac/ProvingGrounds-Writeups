@@ -8,6 +8,7 @@
 
 - [Astronaut](Astronaut.md)
 - [Hawat](Hawat.md)
+- [Levram](Levram.md)
 - [RubyDome](RubyDome.md)
 
 ### Easy Windows Machines
