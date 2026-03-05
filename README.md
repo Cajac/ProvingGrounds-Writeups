@@ -2,7 +2,7 @@
 
 ![Proving Ground Logo](offsec-proving-grounds.png)
 
-Welcome to my writeups for proving ground machines.
+Welcome to my writeups for proving grounds machines.
 
 ## Types
 
