@@ -8,6 +8,7 @@
 
 - [Astronaut](Astronaut.md)
 - [Hawat](Hawat.md)
+- [Hub](Hub.md)
 - [Levram](Levram.md)
 - [RubyDome](RubyDome.md)
 
