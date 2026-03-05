@@ -309,7 +309,6 @@ For additional information, please see the references below.
 
 ## References
 
-- [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
 - [FuguHub - Homepage](https://fuguhub.com/)
 - [FuguHub-8.4-Authenticated-RCE-CVE-2024-27697 - GitHub](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 - [Gobuster - GitHub](https://github.com/OJ/gobuster/)
