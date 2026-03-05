@@ -290,6 +290,8 @@ Exploit found and written by: @vikaran101
 
 But no joy! Let's try the manual approach instead.
 
+### Get a reverse shell
+
 We prepare a PHP reverse shell
 
 ```bash
