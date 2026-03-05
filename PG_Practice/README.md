@@ -7,6 +7,7 @@
 ### Easy Linux Machines
 
 - [Astronaut](Astronaut.md)
+- [Codo](Codo.md)
 - [Hawat](Hawat.md)
 - [Hub](Hub.md)
 - [Levram](Levram.md)
