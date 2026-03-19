@@ -7,6 +7,7 @@
 ### Easy Linux Machines
 
 - [Astronaut](Easy/Astronaut.md)
+- [Bratarina](Easy/Bratarina.md)
 - [Codo](Easy/Codo.md)
 - [CVE-2023-46818](Easy/CVE-2023-46818.md)
 - [Detection](Easy/Detection.md)
