@@ -2,6 +2,7 @@
 
 ## Intermediate Linux Machines
 
+- [pc](pc.md)
 - [Walla](Walla.md)
 
 ## Intermediate Windows Machines
