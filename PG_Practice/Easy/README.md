@@ -6,6 +6,7 @@
 - [Codo](Codo.md)
 - [CVE-2023-46818](CVE-2023-46818.md)
 - [Detection](Detection.md)
+- [Flimsy](Flimsy.md)
 - [Hawat](Hawat.md)
 - [Hub](Hub.md)
 - [Levram](Levram.md)

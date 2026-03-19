@@ -10,6 +10,7 @@
 - [Codo](Easy/Codo.md)
 - [CVE-2023-46818](Easy/CVE-2023-46818.md)
 - [Detection](Easy/Detection.md)
+- [Flimsy](Easy/Flimsy.md)
 - [Hawat](Easy/Hawat.md)
 - [Hub](Easy/Hub.md)
 - [Levram](Easy/Levram.md)
