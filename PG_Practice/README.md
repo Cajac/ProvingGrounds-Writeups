@@ -29,6 +29,8 @@
 
 ### Intermediate Linux Machines
 
+- [Walla](Intermediate/Walla.md)
+
 ### Intermediate Windows Machines
 
 - [Slort](Intermediate/Slort.md)

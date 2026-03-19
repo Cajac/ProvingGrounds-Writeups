@@ -2,6 +2,8 @@
 
 ## Intermediate Linux Machines
 
+- [Walla](Walla.md)
+
 ## Intermediate Windows Machines
 
 - [Slort](Slort.md)
