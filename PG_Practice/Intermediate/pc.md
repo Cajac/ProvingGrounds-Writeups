@@ -125,7 +125,7 @@ Next, we enumerate the system for privilege escalation opportunities.
 
 The following checks yields nothing:
 
-- `sudo -l` (no passowrd)
+- `sudo -l` (no password)
 - Check for SUID-binaries (`find / -type f -perm /4000 2>/dev/null`)
 - Check for capabilities (`getcap -r / 2>/dev/null`)
 - Check .bash_history content
