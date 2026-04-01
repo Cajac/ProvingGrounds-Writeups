@@ -8,6 +8,7 @@
 
 - [Astronaut](Easy/Astronaut.md)
 - [Bratarina](Easy/Bratarina.md)
+- [ClamAV](Easy/ClamAV.md)
 - [Codo](Easy/Codo.md)
 - [CVE-2023-46818](Easy/CVE-2023-46818.md)
 - [Detection](Easy/Detection.md)

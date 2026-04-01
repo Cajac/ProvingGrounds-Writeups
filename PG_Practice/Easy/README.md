@@ -4,6 +4,7 @@
 
 - [Astronaut](Astronaut.md)
 - [Bratarina](Bratarina.md)
+- [ClamAV](ClamAV.md)
 - [Codo](Codo.md)
 - [CVE-2023-46818](CVE-2023-46818.md)
 - [Detection](Detection.md)
