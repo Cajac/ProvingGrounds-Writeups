@@ -16,6 +16,7 @@
 - [Hub](Easy/Hub.md)
 - [Levram](Easy/Levram.md)
 - [RubyDome](Easy/RubyDome.md)
+- [Twiggy](Easy/Twiggy.md)
 
 ### Easy Windows Machines
 
