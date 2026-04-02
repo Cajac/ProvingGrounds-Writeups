@@ -902,6 +902,7 @@ For additional information, please see the references below.
 - [OpenSSH  - Wikipedia](https://en.wikipedia.org/wiki/OpenSSH)
 - [Python (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Redis - Wikipedia](https://en.wikipedia.org/wiki/Redis)
+- [Redis-RCE - jas502n - GitHub](https://github.com/jas502n/Redis-RCE)
 - [searchsploit - Homepage](https://www.exploit-db.com/searchsploit)
 - [searchsploit - Kali Tools](https://www.kali.org/tools/exploitdb/#searchsploit)
 - [sudo - Linux manual page](https://man7.org/linux/man-pages/man8/sudo.8.html)
