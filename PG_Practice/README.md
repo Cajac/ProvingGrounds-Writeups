@@ -18,6 +18,7 @@
 - [Levram](Easy/Levram.md)
 - [RubyDome](Easy/RubyDome.md)
 - [Twiggy](Easy/Twiggy.md)
+- [Wombo](Easy/Wombo.md)
 
 ### Easy Windows Machines
 
