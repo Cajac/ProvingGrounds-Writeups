@@ -770,7 +770,7 @@ total 8
 www-data@exfiltrated:/var/www/html/subrion/uploads$ 
 ```
 
-The we wait a minute or so for the script to run.
+Then we wait a minute or so for the script to run.
 
 ```bash
 www-data@exfiltrated:/var/www/html/subrion/uploads$ ls -l /var/www/html/
@@ -795,7 +795,7 @@ rootbash-5.0#
 
 ### Get the user flag
 
-Now we can get the user flag
+And then we can get the user flag
 
 ```bash
 rootbash-5.0# find /home -type f -name local.txt -exec 'cat {}' \;
@@ -807,7 +807,7 @@ rootbash-5.0#
 
 ### Get the root flag
 
-And finally, we cat get the root flag
+Finally, we can also get the root flag
 
 ```bash
 rootbash-5.0# ls -l /root
@@ -845,6 +845,7 @@ For additional information, please see the references below.
 - [robots.txt - Wikipedia](https://en.wikipedia.org/wiki/Robots.txt)
 - [searchsploit - Homepage](https://www.exploit-db.com/searchsploit)
 - [searchsploit - Kali Tools](https://www.kali.org/tools/exploitdb/#searchsploit)
+- [Setuid - Wikipedia](https://en.wikipedia.org/wiki/Setuid)
 - [socat - Docs](http://www.dest-unreach.org/socat/doc/socat.html)
 - [socat - Homepage](http://www.dest-unreach.org/socat/)
 - [socat - Linux manual page](https://linux.die.net/man/1/socat)
