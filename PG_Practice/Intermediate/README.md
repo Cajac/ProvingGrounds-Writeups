@@ -2,6 +2,7 @@
 
 ## Intermediate Linux Machines
 
+- [Cockpit](Cockpit.md)
 - [pc](pc.md)
 - [Walla](Walla.md)
 
