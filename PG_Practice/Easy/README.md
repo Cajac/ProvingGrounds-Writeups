@@ -13,6 +13,7 @@
 - [Hawat](Hawat.md)
 - [Hub](Hub.md)
 - [Levram](Levram.md)
+- [Pebbles](Pebbles.md)
 - [RubyDome](RubyDome.md)
 - [Twiggy](Twiggy.md)
 - [Wombo](Wombo.md)

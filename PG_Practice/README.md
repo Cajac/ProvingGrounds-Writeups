@@ -17,6 +17,7 @@
 - [Hawat](Easy/Hawat.md)
 - [Hub](Easy/Hub.md)
 - [Levram](Easy/Levram.md)
+- [Pebbles](Easy/Pebbles.md)
 - [RubyDome](Easy/RubyDome.md)
 - [Twiggy](Easy/Twiggy.md)
 - [Wombo](Easy/Wombo.md)
