@@ -4,6 +4,7 @@
 
 - [Cockpit](Cockpit.md)
 - [pc](pc.md)
+- [plum](plum.md)
 - [Walla](Walla.md)
 
 ## Intermediate Windows Machines

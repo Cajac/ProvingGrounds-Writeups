@@ -37,6 +37,7 @@
 
 - [Cockpit](Intermediate/Cockpit.md)
 - [pc](Intermediate/pc.md)
+- [plum](Intermediate/plum.md)
 - [Walla](Intermediate/Walla.md)
 
 ### Intermediate Windows Machines
