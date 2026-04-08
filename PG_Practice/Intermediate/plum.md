@@ -189,9 +189,9 @@ Shellcodes: No Results
 
 but doesn't find anything locally.
 
-Googling for `PLUXML 5.8.7 exploit` we find [CVE-2022-25018](https://nvd.nist.gov/vuln/detail/CVE-2022-25018) and [this information](https://github.com/MoritzHuppert/CVE-2022-25018/blob/main/CVE-2022-25018.pdf).
+Googling for `PLUXML 5.8.7 exploit` we find [CVE-2022-25018](https://nvd.nist.gov/vuln/detail/CVE-2022-25018).
 
-Looking for exploits on GitHub we find [this one](https://github.com/erlaplante/pluxml-rce) that we download
+Looking for exploits on GitHub we find [this one](https://github.com/erlaplante/pluxml-rce)
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/plum]
@@ -547,6 +547,7 @@ For additional information, please see the references below.
 ## References
 
 - [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
+- [CVE-2022-25018 - NIST](https://nvd.nist.gov/vuln/detail/CVE-2022-25018)
 - [Exim - Wikipedia](https://en.wikipedia.org/wiki/Exim)
 - [export - Linux manual page](https://www.man7.org/linux/man-pages/man1/export.1p.html)
 - [find - Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
