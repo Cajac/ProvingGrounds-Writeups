@@ -26,4 +26,5 @@ I'm not a native English speaker so please forgive any spelling mistakes or gram
 
 Some of the solutions were inspired by writeups and walkthroughs from these guys:
 
+- [0xRave](https://medium.com/@0xrave)
 - [pika5164](https://github.com/pika5164/Offsec_Proving_Grounds)
