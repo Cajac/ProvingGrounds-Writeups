@@ -62,7 +62,6 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 138.41 seconds
-
 ```
 
 We have two TCP-services running and available:
@@ -781,11 +780,14 @@ Now we have a stable shell that survives `Ctrl + C`!
 
 ### Enumeration for privesc
 
-During the enumeration a vulnerable version of `pkexec` was discovered
+During the enumeration a vulnerable version of policykit was discovered (versions <= 0.105-31 is vulnerable to PwnKit)
 
 ```bash
-www-data@pebbles:/var/www/html$ pkexec --version
-pkexec version 0.105
+www-data@pebbles:/var/www/html$ apt list policykit-1
+Listing... Done
+policykit-1/xenial-updates,xenial-security,now 0.105-14.1ubuntu0.5 amd64 [installed]
+N: There is 1 additional version. Please use the '-a' switch to see it
+www-data@pebbles:/var/www/html$ 
 ```
 
 We transfer the [exploit](https://github.com/joeammond/CVE-2021-4034) to the target machine
@@ -839,6 +841,7 @@ For additional information, please see the references below.
 ## References
 
 - [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
+- [apt - Linux manual page](https://linux.die.net/man/8/apt)
 - [Burp suite - Documentation](https://portswigger.net/burp/documentation)
 - [Burp suite - Homepage](https://portswigger.net/burp)
 - [CVE-2021-4034 - Joe Ammond - GitHub](https://github.com/joeammond/CVE-2021-4034)
