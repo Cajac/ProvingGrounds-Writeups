@@ -11,7 +11,7 @@ Difficulty: Intermediate
 Community Rating: Intermediate
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
-Points: 10
+Points: 15
 Number of Flags: 2
 Lab Description:
 This lab demonstrates exploiting a Remote Code Execution (RCE) vulnerability in PluXml v5.8.7 
