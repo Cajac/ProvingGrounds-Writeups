@@ -436,7 +436,7 @@ Connection to 192.168.236.100 closed.
 
 Nope, we were denied. Seems like only `scp` is allowed.
 
-We go back to the files to try to investigate
+We go back to the files to investigate
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/Sorcerer]
