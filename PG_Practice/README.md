@@ -36,6 +36,7 @@
 ### Intermediate Linux Machines
 
 - [Cockpit](Intermediate/Cockpit.md)
+- [Extplorer](Intermediate/Extplorer.md)
 - [pc](Intermediate/pc.md)
 - [plum](Intermediate/plum.md)
 - [Sorcerer](Intermediate/Sorcerer.md)

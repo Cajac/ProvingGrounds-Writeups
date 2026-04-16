@@ -3,6 +3,7 @@
 ## Intermediate Linux Machines
 
 - [Cockpit](Cockpit.md)
+- [Extplorer](Extplorer.md)
 - [pc](pc.md)
 - [plum](plum.md)
 - [Sorcerer](Sorcerer.md)
