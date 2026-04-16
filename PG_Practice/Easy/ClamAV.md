@@ -331,7 +331,7 @@ Browsing manually to port 80 shows a shows a binary string
 </html>
 ```
 
-Decoded with Binary refinery it reads roughly "If you don't pwn me you ran 0b".
+Decoded with Binary refinery it likely should be read "If you don't pwn me you are a noob".
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/ClamAV]
