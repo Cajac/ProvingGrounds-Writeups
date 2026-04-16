@@ -35,6 +35,7 @@
 
 ### Intermediate Linux Machines
 
+- [bullyBox](Intermediate/bullyBox.md)
 - [Cockpit](Intermediate/Cockpit.md)
 - [Extplorer](Intermediate/Extplorer.md)
 - [pc](Intermediate/pc.md)
