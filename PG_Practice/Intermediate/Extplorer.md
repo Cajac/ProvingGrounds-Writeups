@@ -540,6 +540,8 @@ For additional information, please see the references below.
 - [grep - Linux manual page](https://man7.org/linux/man-pages/man1/grep.1.html)
 - [head - Linux manual page](https://man7.org/linux/man-pages/man1/head.1.html)
 - [id - Linux manual page](https://man7.org/linux/man-pages/man1/id.1.html)
+- [John the Ripper - Homepage](https://www.openwall.com/john/)
+- [john - Kali Tools](https://www.kali.org/tools/john/)
 - [LinPEAS - GitHub](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)
 - [nc - Linux manual page](https://linux.die.net/man/1/nc)
 - [netcat - Wikipedia](https://en.wikipedia.org/wiki/Netcat)
