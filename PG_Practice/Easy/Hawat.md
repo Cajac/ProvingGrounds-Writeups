@@ -66,7 +66,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 122.78 seconds
 ```
 
-We have two services running and available:
+We have four services running and available:
 
 - OpenSSH 8.4 on port 22
 - Apache Tomcat on port 17445
