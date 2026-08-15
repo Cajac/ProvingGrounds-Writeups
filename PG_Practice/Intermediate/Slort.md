@@ -78,7 +78,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 207.98 seconds
 ```
 
-We have seven main services running and available:
+We have eight main services running and available:
 
 - FileZilla ftpd 0.9.41 beta on port 21
 - Microsoft Windows RPC on port 135
