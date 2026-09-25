@@ -41,6 +41,7 @@
 - [pc](Intermediate/pc.md)
 - [plum](Intermediate/plum.md)
 - [Sorcerer](Intermediate/Sorcerer.md)
+- [Vanity](Intermediate/Vanity.md)
 - [Walla](Intermediate/Walla.md)
 
 ### Intermediate Windows Machines
