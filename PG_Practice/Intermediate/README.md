@@ -8,6 +8,7 @@
 - [pc](pc.md)
 - [plum](plum.md)
 - [Sorcerer](Sorcerer.md)
+- [Vanity](Vanity.md)
 - [Walla](Walla.md)
 
 ## Intermediate Windows Machines
