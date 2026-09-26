@@ -375,6 +375,8 @@ We found two credentials:
 - Username: `tom`
 - Password: `parturient`
 
+and
+
 - Username: `jerry`
 - Password: `adipiscing`
 
@@ -557,7 +559,7 @@ Our previous found password (`adipiscing`) worked!
 
 ### Enumeration as jerry
 
-Next, we contimue our enumeration as jerry.
+Next, we continue our enumeration as jerry.
 
 ```bash
 tom@DC-2:~$ su jerry
