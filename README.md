@@ -4,6 +4,10 @@
 
 Welcome to my writeups for proving grounds machines.
 
+These writeups are mainly a documentation for myself but I hope others will benefit from them as well.
+
+This repository is part of my evolving efforts to [build](https://www.buildingasecondbrain.com/) my [second](https://fortelabs.com/blog/basboverview/) [brain](https://fortelabs.com/blog/the-7-benefits-of-building-a-second-brain/).
+
 ## Types
 
 - [PG Play](PG_Play/README.md)
@@ -13,6 +17,18 @@ Welcome to my writeups for proving grounds machines.
 
 The solutions contains step-by-step walkthroughs but doesn't display the flags in plain text.  
 Instead, the flags are displayd as `e<REDACTED>1` with only the first and last characters visible for verification purposes.
+
+## When to use
+
+These solutions can be used in two different scenarios:
+
+**Scenario #1**:  
+When you are stuck, have already tried different solutions on your own, and don't know how to continue.  
+Don't look at them to soon though. It's always good to develop your ["Try harder"-mindset](https://www.offsec.com/blog/what-it-means-to-try-harder/)!
+
+**Scenario #2**:  
+When you have already solved the challenge on your own but want to see if you can learn different methods, tools or approaches.
+Are there different and perhaps smarter ways to solve this challenge?
 
 ## Support my work
 
