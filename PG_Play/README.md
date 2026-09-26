@@ -2,28 +2,32 @@
 
 [PG Play](https://portal.offsec.com/labs/play) is a free training lab with dedicated machines designed and submitted by the VulnHub community.
 
+## Intermediate Machines
+
+### Intermediate Linux Machines
+
 ## Easy Machines
 
 ### Easy Linux Machines
 
-- [ColdBoxEasy](ColdBoxEasy.md)
-- [CyberSploit1](CyberSploit1.md)
-- [Dawn](Dawn.md)
-- [DC-1](DC-1.md)
-- [FunboxEasy](FunboxEasy.md)
-- [FunboxRookie](FunboxRookie.md)
-- [Gaara](Gaara.md)
-- [InfosecPrep](InfosecPrep.md)
-- [Moneybox](Moneybox.md)
-- [OnSystemShellDredd](OnSystemShellDredd.md)
-- [Photographer](Photographer.md)
-- [Sar](Sar.md)
-- [Solstice](Solstice.md)
-- [SunsetDecoy](SunsetDecoy.md)
-- [SunsetNoontide](SunsetNoontide.md)
-- [Vegeta1](Vegeta1.md)
-- [Wpwn](Wpwn.md)
+- [ColdBoxEasy](Easy/ColdBoxEasy.md)
+- [CyberSploit1](Easy/CyberSploit1.md)
+- [Dawn](Easy/Dawn.md)
+- [DC-1](Easy/DC-1.md)
+- [FunboxEasy](Easy/FunboxEasy.md)
+- [FunboxRookie](Easy/FunboxRookie.md)
+- [Gaara](Easy/Gaara.md)
+- [InfosecPrep](Easy/InfosecPrep.md)
+- [Moneybox](Easy/Moneybox.md)
+- [OnSystemShellDredd](Easy/OnSystemShellDredd.md)
+- [Photographer](Easy/Photographer.md)
+- [Sar](Easy/Sar.md)
+- [Solstice](Easy/Solstice.md)
+- [SunsetDecoy](Easy/SunsetDecoy.md)
+- [SunsetNoontide](Easy/SunsetNoontide.md)
+- [Vegeta1](Easy/Vegeta1.md)
+- [Wpwn](Easy/Wpwn.md)
 
 ### Easy Windows Machines
 
-- [Sams](Sams.md)
+- [Sams](Easy/Sams.md)
