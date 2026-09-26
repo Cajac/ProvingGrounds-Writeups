@@ -14,6 +14,7 @@
 - [CyberSploit1](Easy/CyberSploit1.md)
 - [Dawn](Easy/Dawn.md)
 - [DC-1](Easy/DC-1.md)
+- [DC-2](Easy/DC-2.md)
 - [FunboxEasy](Easy/FunboxEasy.md)
 - [FunboxRookie](Easy/FunboxRookie.md)
 - [Gaara](Easy/Gaara.md)
