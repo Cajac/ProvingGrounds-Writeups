@@ -2,6 +2,23 @@
 
 [PG Practice](https://portal.offsec.com/labs/practice) has all the features of Play, plus unlimited time and additional machines designed by Offsec experts.
 
+## Intermediate Machines
+
+### Intermediate Linux Machines
+
+- [bullyBox](Intermediate/bullyBox.md)
+- [Cockpit](Intermediate/Cockpit.md)
+- [Extplorer](Intermediate/Extplorer.md)
+- [pc](Intermediate/pc.md)
+- [plum](Intermediate/plum.md)
+- [Sorcerer](Intermediate/Sorcerer.md)
+- [Vanity](Intermediate/Vanity.md)
+- [Walla](Intermediate/Walla.md)
+
+### Intermediate Windows Machines
+
+- [Slort](Intermediate/Slort.md)
+
 ## Easy Machines
 
 ### Easy Linux Machines
@@ -30,20 +47,3 @@
 - [Kevin](Easy/Kevin.md)
 - [Mice](Easy/Mice.md)
 - [Monster](Easy/Monster.md)
-
-## Intermediate Machines
-
-### Intermediate Linux Machines
-
-- [bullyBox](Intermediate/bullyBox.md)
-- [Cockpit](Intermediate/Cockpit.md)
-- [Extplorer](Intermediate/Extplorer.md)
-- [pc](Intermediate/pc.md)
-- [plum](Intermediate/plum.md)
-- [Sorcerer](Intermediate/Sorcerer.md)
-- [Vanity](Intermediate/Vanity.md)
-- [Walla](Intermediate/Walla.md)
-
-### Intermediate Windows Machines
-
-- [Slort](Intermediate/Slort.md)
