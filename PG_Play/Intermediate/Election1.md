@@ -410,7 +410,7 @@ Stopped: Sun Nov  8 18:52:37 2026
 ```
 
 This confirms the hash type and we get the credentials `newuser:password`.  
-That doesn't seem to useful though!
+That doesn't seem too useful though!
 
 ### Further web scanning
 
