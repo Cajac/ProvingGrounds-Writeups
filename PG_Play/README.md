@@ -22,6 +22,7 @@
 - [Moneybox](Fundamental/Moneybox.md)
 - [OnSystemShellDredd](Fundamental/OnSystemShellDredd.md)
 - [Photographer](Fundamental/Photographer.md)
+- [Potato](Fundamental/Potato.md)
 - [Sar](Fundamental/Sar.md)
 - [Solstice](Fundamental/Solstice.md)
 - [SunsetDecoy](Fundamental/SunsetDecoy.md)

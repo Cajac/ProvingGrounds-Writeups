@@ -14,6 +14,7 @@
 - [Moneybox](Moneybox.md)
 - [OnSystemShellDredd](OnSystemShellDredd.md)
 - [Photographer](Photographer.md)
+- [Potato](Potato.md)
 - [Sar](Sar.md)
 - [Solstice](Solstice.md)
 - [SunsetDecoy](SunsetDecoy.md)
