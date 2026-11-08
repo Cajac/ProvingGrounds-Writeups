@@ -903,6 +903,7 @@ For additional information, please see the references below.
 - [find - Linux manual page](https://man7.org/linux/man-pages/man1/find.1.html)
 - [Gobuster - GitHub](https://github.com/OJ/gobuster/)
 - [Gobuster - Kali Tools](https://www.kali.org/tools/gobuster/)
+- [grep - Linux manual page](https://man7.org/linux/man-pages/man1/grep.1.html)
 - [HTML - Wikipedia](https://en.wikipedia.org/wiki/HTML)
 - [id - Linux manual page](https://man7.org/linux/man-pages/man1/id.1.html)
 - [nmap - Homepage](https://nmap.org/)
