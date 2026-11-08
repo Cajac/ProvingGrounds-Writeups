@@ -1,6 +1,6 @@
 # Writeups for OffSec's proving grounds
 
-![Proving Ground Logo](offsec-proving-grounds.png)
+![Proving Grounds Logo](Images/OffSec_PG_Logo.png)
 
 Welcome to my writeups for proving grounds machines.
 
