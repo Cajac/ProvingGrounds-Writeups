@@ -7,6 +7,7 @@
 ## Machine information
 
 ```text
+Type: PG Play
 Difficulty: Easy
 Community Rating: Very hard
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup

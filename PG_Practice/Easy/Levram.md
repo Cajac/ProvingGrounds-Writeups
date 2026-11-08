@@ -7,6 +7,7 @@
 ## Machine information
 
 ```text
+Type: PG Practice
 Difficulty: Easy
 Community Rating: Easy
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
