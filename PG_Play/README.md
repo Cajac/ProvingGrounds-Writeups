@@ -6,6 +6,8 @@
 
 ### Intermediate Linux Machines
 
+- [SoSimple](Intermediate/SoSimple.md)
+
 ## Fundamental Machines
 
 ### Fundamental Linux Machines
@@ -25,7 +27,6 @@
 - [Potato](Fundamental/Potato.md)
 - [Sar](Fundamental/Sar.md)
 - [Solstice](Fundamental/Solstice.md)
-- [SoSimple](Fundamental/SoSimple.md)
 - [SunsetDecoy](Fundamental/SunsetDecoy.md)
 - [SunsetNoontide](Fundamental/SunsetNoontide.md)
 - [Vegeta1](Fundamental/Vegeta1.md)
