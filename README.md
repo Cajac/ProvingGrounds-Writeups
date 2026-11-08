@@ -1,4 +1,4 @@
-# Writeups for OffSec's proving grounds
+# Writeups for OffSec's Proving Grounds
 
 ![Proving Grounds Logo](Images/OffSec_PG_Logo.png)
 
