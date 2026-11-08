@@ -8,7 +8,7 @@
 
 ```text
 Type: PG Play
-Difficulty: Easy
+Difficulty: Fundamental
 Community Rating: Very hard
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Windows
