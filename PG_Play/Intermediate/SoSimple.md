@@ -8,7 +8,7 @@
 
 ```text
 Type: PG Play
-Difficulty: Fundamental
+Difficulty: Intermediate
 Community Rating: Intermediate
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 OS: Linux
