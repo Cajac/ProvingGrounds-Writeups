@@ -6,6 +6,7 @@
 
 ### Intermediate Linux Machines
 
+- [Election1](Intermediate/Election1.md)
 - [SoSimple](Intermediate/SoSimple.md)
 
 ## Fundamental Machines
