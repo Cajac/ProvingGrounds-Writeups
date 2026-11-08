@@ -61,7 +61,7 @@ Nmap done: 1 IP address (1 host up) scanned in 34.83 seconds
 We have three TCP-services running:
 
 - An [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH) server version 8.2p1 on port 22
-- An [Apache httpd]((https://en.wikipedia.org/wiki/Apache_HTTP_Server)) server 2.4.41 on port 80
+- An [Apache httpd](https://en.wikipedia.org/wiki/Apache_HTTP_Server) server 2.4.41 on port 80
 - A [ProFTPD](https://en.wikipedia.org/wiki/ProFTPD) server on port 2112
 
 The FTP-server allows anonymous access.
@@ -497,7 +497,7 @@ webadmin:$1$webadmin$3sXBxGUtDGIFAcnNTNhi6/:1001:1001:webadmin,,,:/home/webadmin
 
 ### Crack the hash
 
-We will try to crack the hash with `hashcat` and the Rockyou wordlist
+We will try to crack the hash with `hashcat` and the Rockyou wordlist.
 
 First, we identify the type of hash.
 
@@ -582,7 +582,7 @@ And the password is `dragon`.
 
 ### Login with SSH as webadmin
 
-Next, we connect with SSH with the credentials `webadmin:dragon`:
+Next, we connect with SSH and the credentials `webadmin:dragon`:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Play/Fundamental/Potato]
