@@ -6,9 +6,9 @@
 
 ### Intermediate Linux Machines
 
-## Easy Machines
+## Fundamental Machines
 
-### Easy Linux Machines
+### Fundamental Linux Machines
 
 - [ColdBoxEasy](Easy/ColdBoxEasy.md)
 - [CyberSploit1](Easy/CyberSploit1.md)
@@ -29,6 +29,6 @@
 - [Vegeta1](Easy/Vegeta1.md)
 - [Wpwn](Easy/Wpwn.md)
 
-### Easy Windows Machines
+### Fundamental Windows Machines
 
 - [Sams](Easy/Sams.md)

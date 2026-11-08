@@ -20,7 +20,7 @@ HiveNightmare vulnerability to retrieve sensitive registry hive files and achiev
 Released: 28 Mar 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/sams-49073/overview/details](https://portal.offsec.com/machine/sams-49073/overview/details)
+Machine link: N/A, This machine is no longer available!
 
 ## Solution
 

@@ -1,6 +1,6 @@
-# Easy PG Play Machines
+# Fundamental PG Play Machines
 
-## Easy Linux Machines
+## Fundamental Linux Machines
 
 - [ColdBoxEasy](ColdBoxEasy.md)
 - [CyberSploit1](CyberSploit1.md)
@@ -21,6 +21,6 @@
 - [Vegeta1](Vegeta1.md)
 - [Wpwn](Wpwn.md)
 
-## Easy Windows Machines
+## Fundamental Windows Machines
 
 - [Sams](Sams.md)
