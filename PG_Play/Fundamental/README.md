@@ -17,6 +17,7 @@
 - [Potato](Potato.md)
 - [Sar](Sar.md)
 - [Solstice](Solstice.md)
+- [SoSimple](SoSimple.md)
 - [SunsetDecoy](SunsetDecoy.md)
 - [SunsetNoontide](SunsetNoontide.md)
 - [Vegeta1](Vegeta1.md)
