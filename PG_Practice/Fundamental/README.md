@@ -1,6 +1,6 @@
-# Easy PG Practice Machines
+# Fundamental PG Practice Machines
 
-## Easy Linux Machines
+## Fundamental Linux Machines
 
 - [Astronaut](Astronaut.md)
 - [Bratarina](Bratarina.md)
@@ -18,7 +18,7 @@
 - [Twiggy](Twiggy.md)
 - [Wombo](Wombo.md)
 
-## Easy Windows Machines
+## Fundamental Windows Machines
 
 - [Algernon](Algernon.md)
 - [Compromised](Compromised.md)
