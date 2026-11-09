@@ -23,7 +23,7 @@ RCE, credential exploitation, and leveraging application misconfigurations for p
 Released: 9 May 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/mice-38178/overview/details](https://portal.offsec.com/machine/mice-38178/overview/details)
+Machine link: N/A, This machine is no longer available!
 
 ## Solution
 
