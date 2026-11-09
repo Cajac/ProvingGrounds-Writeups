@@ -19,31 +19,31 @@
 
 - [Slort](Intermediate/Slort.md)
 
-## Easy Machines
+## Fundamental Machines
 
-### Easy Linux Machines
+### Fundamental Linux Machines
 
-- [Astronaut](Easy/Astronaut.md)
-- [Bratarina](Easy/Bratarina.md)
-- [ClamAV](Easy/ClamAV.md)
-- [Codo](Easy/Codo.md)
-- [CVE-2023-46818](Easy/CVE-2023-46818.md)
-- [Detection](Easy/Detection.md)
-- [Exfiltrated](Easy/Exfiltrated.md)
-- [Flimsy](Easy/Flimsy.md)
-- [Hawat](Easy/Hawat.md)
-- [Hub](Easy/Hub.md)
-- [Levram](Easy/Levram.md)
-- [Pebbles](Easy/Pebbles.md)
-- [RubyDome](Easy/RubyDome.md)
-- [Twiggy](Easy/Twiggy.md)
-- [Wombo](Easy/Wombo.md)
+- [Astronaut](Fundamental/Astronaut.md)
+- [Bratarina](Fundamental/Bratarina.md)
+- [ClamAV](Fundamental/ClamAV.md)
+- [Codo](Fundamental/Codo.md)
+- [CVE-2023-46818](Fundamental/CVE-2023-46818.md)
+- [Detection](Fundamental/Detection.md)
+- [Exfiltrated](Fundamental/Exfiltrated.md)
+- [Flimsy](Fundamental/Flimsy.md)
+- [Hawat](Fundamental/Hawat.md)
+- [Hub](Fundamental/Hub.md)
+- [Levram](Fundamental/Levram.md)
+- [Pebbles](Fundamental/Pebbles.md)
+- [RubyDome](Fundamental/RubyDome.md)
+- [Twiggy](Fundamental/Twiggy.md)
+- [Wombo](Fundamental/Wombo.md)
 
-### Easy Windows Machines
+### Fundamental Windows Machines
 
-- [Algernon](Easy/Algernon.md)
-- [Compromised](Easy/Compromised.md)
-- [Internal](Easy/Internal.md)
-- [Kevin](Easy/Kevin.md)
-- [Mice](Easy/Mice.md)
-- [Monster](Easy/Monster.md)
+- [Algernon](Fundamental/Algernon.md)
+- [Compromised](Fundamental/Compromised.md)
+- [Internal](Fundamental/Internal.md)
+- [Kevin](Fundamental/Kevin.md)
+- [Mice](Fundamental/Mice.md)
+- [Monster](Fundamental/Monster.md)
