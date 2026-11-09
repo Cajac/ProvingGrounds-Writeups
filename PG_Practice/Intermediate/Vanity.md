@@ -204,7 +204,7 @@ We can see that some extensions aren't allowed.
 
 ### Upload a test file
 
-Then we upload we upload a test file called `test` via the web site.
+Then we upload a test file called `test` via the web site.
 
 The result is:
 
