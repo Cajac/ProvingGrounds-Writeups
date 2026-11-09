@@ -9,6 +9,7 @@
 - [bullyBox](Intermediate/bullyBox.md)
 - [Cockpit](Intermediate/Cockpit.md)
 - [Extplorer](Intermediate/Extplorer.md)
+- [MZEEAV](Intermediate/MZEEAV.md)
 - [pc](Intermediate/pc.md)
 - [plum](Intermediate/plum.md)
 - [Sorcerer](Intermediate/Sorcerer.md)

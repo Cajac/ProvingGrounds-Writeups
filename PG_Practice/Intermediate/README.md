@@ -5,6 +5,7 @@
 - [bullyBox](bullyBox.md)
 - [Cockpit](Cockpit.md)
 - [Extplorer](Extplorer.md)
+- [MZEEAV](MZEEAV.md)
 - [pc](pc.md)
 - [plum](plum.md)
 - [Sorcerer](Sorcerer.md)
