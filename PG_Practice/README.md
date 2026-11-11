@@ -18,6 +18,7 @@
 
 ### Intermediate Windows Machines
 
+- [DVR4](Intermediate/DVR4.md)
 - [Slort](Intermediate/Slort.md)
 
 ## Fundamental Machines

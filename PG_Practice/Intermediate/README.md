@@ -14,4 +14,5 @@
 
 ## Intermediate Windows Machines
 
+- [DVR4](DVR4.md)
 - [Slort](Slort.md)
