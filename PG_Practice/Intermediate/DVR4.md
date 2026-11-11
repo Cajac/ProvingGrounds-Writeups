@@ -749,7 +749,7 @@ Success. Now we know the password (`14WatchD0g$`).
 
 ### Get the root flag
 
-Escellent, we ought to be able to get the root flag via SMB directly.
+Excellent, we ought to be able to get the root flag via SMB directly.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/DVR4]
