@@ -94,7 +94,7 @@ Nmap done: 1 IP address (1 host up) scanned in 216.74 seconds
 
 We have the following TCP-services running and available:
 
-- A Simple DNS Plus server on port 53
+- A Simple [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) Plus server on port 53
 - [Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol)) on port 88
 - [Microsoft Windows RPC](https://en.wikipedia.org/wiki/Microsoft_RPC) on port 135
 - [NetBIOS Session Service](https://en.wikipedia.org/wiki/NetBIOS_over_TCP/IP#Session_service) on port 139
@@ -103,6 +103,8 @@ We have the following TCP-services running and available:
 - A [Global Catalog](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc728188(v=ws.10)) service on ports 3268
 - [Microsoft Terminal Services (RDP)](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) on port 3389
 - A [WinRM](https://en.wikipedia.org/wiki/Windows_Remote_Management) service on port 5985
+
+In short, this is a Windows domain controller for the domain `resourced.local`.
 
 ### Update /etc/hosts
 
@@ -149,7 +151,7 @@ SMB         192.168.101.175 445    RESOURCEDC       [*] Windows 10 / Server 2019
 SMB         192.168.101.175 445    RESOURCEDC       [-] resourced.local\Guest: STATUS_ACCOUNT_DISABLED 
 ```
 
-We enumerate domain users.
+Next, we enumerate domain users
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/Resourced]
@@ -175,7 +177,7 @@ SMB         192.168.101.175 445    RESOURCEDC       G.Goldberg                  
 SMB         192.168.101.175 445    RESOURCEDC       [*] Enumerated 13 local users: resourced
 ```
 
-We have these possible credentials:
+and find these possible credentials:
 
 - Username: `V.Ventz`
 - Password: `HotelCalifornia194!`
@@ -257,7 +259,7 @@ LDAP        192.168.101.175 389    RESOURCEDC       [+] resourced.local\V.Ventz:
 LDAP        192.168.101.175 389    RESOURCEDC       L.Livingstone
 ```
 
-Now we can also re-check shares.
+We also re-check shares:
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/Resourced]
@@ -324,7 +326,7 @@ SMBMap - Samba Share Enumerator v1.10.7 | Shawn Evans - ShawnDEvans@gmail.com
 [*] Closed 1 connections   
 ```
 
-We download the files for later analysis.
+The files are downloaded for later analysis.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/Resourced]
@@ -337,7 +339,7 @@ getting file \registry\SYSTEM of size 16777216 as registry/SYSTEM (3047.6 KiloBy
 
 ### Extract NTLM hashes
 
-With the files downloaded, we can parse them and extract NTLM hashes with Impacket.
+We can parse the files and extract NTLM hashes for the domain with Impacket's secretdump.
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Intermediate/Resourced]
@@ -647,6 +649,7 @@ For additional information, please see the references below.
 - [Evil-WinRM - GitHub](https://github.com/Hackplayers/evil-winrm)
 - [Evil-WinRM - Kali Tools](https://www.kali.org/tools/evil-winrm/)
 - [export - Linux manual page](https://www.man7.org/linux/man-pages/man1/export.1p.html)
+- [GenericAll Permission - BloodHound Docs](https://bloodhound.specterops.io/resources/edges/generic-all)
 - [grep - Linux manual page](https://man7.org/linux/man-pages/man1/grep.1.html)
 - [Impacket - GitHub](https://github.com/fortra/impacket)
 - [Impacket - Homepage](https://www.coresecurity.com/core-labs/impacket)
