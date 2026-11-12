@@ -32,6 +32,7 @@
 - [CVE-2023-46818](Fundamental/CVE-2023-46818.md)
 - [Detection](Fundamental/Detection.md)
 - [Exfiltrated](Fundamental/Exfiltrated.md)
+- [Exghost](Fundamental/Exghost.md)
 - [Flimsy](Fundamental/Flimsy.md)
 - [Hawat](Fundamental/Hawat.md)
 - [Hub](Fundamental/Hub.md)

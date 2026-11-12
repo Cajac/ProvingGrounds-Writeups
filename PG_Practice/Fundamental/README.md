@@ -9,6 +9,7 @@
 - [CVE-2023-46818](CVE-2023-46818.md)
 - [Detection](Detection.md)
 - [Exfiltrated](Exfiltrated.md)
+- [Exghost](Exghost.md)
 - [Flimsy](Flimsy.md)
 - [Hawat](Hawat.md)
 - [Hub](Hub.md)
