@@ -25,6 +25,8 @@ Machine link: [https://portal.offsec.com/machine/resourced-36043/overview/detail
 
 ## Solution
 
+**Note**: This machine seems a little unstable and was reverted twice during pwnage.
+
 ### Scan for services with nmap
 
 We start by scanning the machine on all TCP-ports with `nmap` including service info and default scripts.
