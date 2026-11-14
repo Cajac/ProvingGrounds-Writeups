@@ -25,7 +25,8 @@ Machine link: [https://portal.offsec.com/machine/resourced-36043/overview/detail
 
 ## Solution
 
-**Note**: This machine seems a little unstable and was reverted twice during pwnage.
+> [!NOTE]  
+> This machine becomes unresponsive after about an hour's uptime, and needs to be reverted.
 
 ### Scan for services with nmap
 
