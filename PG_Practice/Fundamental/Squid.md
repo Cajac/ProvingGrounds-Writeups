@@ -428,7 +428,7 @@ exit
 meterpreter > 
 ```
 
-That's strange - not the normal set of privileges.
+That's strange - not the normal set of privileges for [LocalService](https://learn.microsoft.com/en-us/windows/win32/services/localservice-account).
 
 ### Restore privileges
 
@@ -477,7 +477,7 @@ Nice, we have better privileges, including `SeImpersonatePrivilege`.
 
 ### Escalate to SYSTEM
 
-This privilege can be use together with [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) to get SYSTEM access.
+This privilege can be used together with [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) to get SYSTEM access.
 
 ```bat
 C:\Windows\system32>cd C:\wamp\www
@@ -575,6 +575,7 @@ For additional information, please see the references below.
 - [FullPowers - GitHub](https://github.com/itm4n/FullPowers)
 - [head - Linux manual page](https://man7.org/linux/man-pages/man1/head.1.html)
 - [LAMP (software bundle) - Wikipedia](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
+- [LocalService Account - Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/services/localservice-account)
 - [MariaDB - Wikipedia](https://en.wikipedia.org/wiki/MariaDB)
 - [Metasploit - Documentation](https://docs.metasploit.com/)
 - [Metasploit - Homepage](https://www.metasploit.com/)
@@ -582,6 +583,7 @@ For additional information, please see the references below.
 - [Microsoft RPC - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_RPC)
 - [Msfvenom - Metasploit Docs](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
 - [Msfvenom - Kali Tools](https://www.kali.org/tools/metasploit-framework/#msfvenom)
+- [MySQL - Wikipedia](https://en.wikipedia.org/wiki/MySQL)
 - [NetBIOS over TCP/IP - Wikipedia](https://en.wikipedia.org/wiki/NetBIOS_over_TCP/IP)
 - [NetExec - GitHub](https://github.com/Pennyw0rth/NetExec)
 - [NetExec - Kali Tools](https://www.kali.org/tools/netexec/)
