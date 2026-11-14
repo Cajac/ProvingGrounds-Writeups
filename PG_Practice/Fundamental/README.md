@@ -27,3 +27,4 @@
 - [Kevin](Kevin.md)
 - [Mice](Mice.md)
 - [Monster](Monster.md)
+- [Squid](Squid.md)

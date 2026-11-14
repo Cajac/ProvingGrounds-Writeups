@@ -51,3 +51,4 @@
 - [Kevin](Fundamental/Kevin.md)
 - [Mice](Fundamental/Mice.md)
 - [Monster](Fundamental/Monster.md)
+- [Squid](Fundamental/Squid.md)
