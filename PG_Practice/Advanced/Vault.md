@@ -455,7 +455,7 @@ Started: Sun Nov 15 15:54:26 2026
 Stopped: Sun Nov 15 15:54:58 2026
 ```
 
-Ah, we a set of credentials:
+Ah, we have a set of credentials:
 
 - Username: `VAULT\anirudh`
 - Password: `SecureHM`
@@ -763,6 +763,8 @@ For additional information, please see the references below.
 - [ExifTool - Wikipedia](https://en.wikipedia.org/wiki/ExifTool)
 - [export - Linux manual page](https://www.man7.org/linux/man-pages/man1/export.1p.html)
 - [file - Linux manual page](https://man7.org/linux/man-pages/man1/file.1.html)
+- [GPO Abuse: Exploiting Vulnerable Group Policy Objects - Hacking Articles](https://www.hackingarticles.in/gpo-abuse-exploiting-vulnerable-group-policy-objects/)
+- [gpupdate - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/gpupdate)
 - [Group Policy - Wikipedia](https://en.wikipedia.org/wiki/Group_Policy)
 - [Hashcat - Homepage](https://hashcat.net/hashcat/)
 - [Hashcat - Kali Tools](https://www.kali.org/tools/hashcat/)
@@ -778,6 +780,7 @@ For additional information, please see the references below.
 - [NetExec - GitHub](https://github.com/Pennyw0rth/NetExec)
 - [NetExec - Kali Tools](https://www.kali.org/tools/netexec/)
 - [NetExec - Wiki](https://www.netexec.wiki)
+- [Net localgroup - Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725622(v=ws.11))
 - [nmap - Homepage](https://nmap.org/)
 - [nmap - Linux manual page](https://linux.die.net/man/1/nmap)
 - [nmap - Manual page](https://nmap.org/book/man.html)
@@ -804,3 +807,5 @@ For additional information, please see the references below.
 - [What Is the Global Catalog? - Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc728188(v=ws.10))
 - [whoami - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/whoami)
 - [Windows Remote Management - Wikipedia](https://en.wikipedia.org/wiki/Windows_Remote_Management)
+- [WriteOwner Permission - BloodHound Docs](https://bloodhound.specterops.io/resources/edges/write-owner)
+
