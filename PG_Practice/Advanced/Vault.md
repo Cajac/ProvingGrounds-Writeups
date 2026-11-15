@@ -808,4 +808,3 @@ For additional information, please see the references below.
 - [whoami - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/whoami)
 - [Windows Remote Management - Wikipedia](https://en.wikipedia.org/wiki/Windows_Remote_Management)
 - [WriteOwner Permission - BloodHound Docs](https://bloodhound.specterops.io/resources/edges/write-owner)
-
