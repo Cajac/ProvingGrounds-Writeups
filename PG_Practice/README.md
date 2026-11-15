@@ -1,6 +1,12 @@
 # PG Practice Machines
 
-[PG Practice](https://portal.offsec.com/labs/practice) has all the features of Play, plus unlimited time and additional machines designed by Offsec experts.
+[PG Practice](https://portal.offsec.com/labs/practice-2) has all the features of Play, plus unlimited time and additional machines designed by Offsec experts.
+
+## Advanced Machines
+
+### Advanced Windows Machines
+
+- [Vault](Advanced/Vault.md)
 
 ## Intermediate Machines
 
