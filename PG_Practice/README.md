@@ -26,6 +26,7 @@
 
 - [DVR4](Intermediate/DVR4.md)
 - [Resourced](Intermediate/Resourced.md)
+- [Shenzi](Intermediate/Shenzi.md)
 - [Slort](Intermediate/Slort.md)
 
 ## Fundamental Machines

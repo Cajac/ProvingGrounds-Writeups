@@ -16,4 +16,5 @@
 
 - [DVR4](DVR4.md)
 - [Resourced](Resourced.md)
+- [Shenzi](Shenzi.md)
 - [Slort](Slort.md)
