@@ -10,6 +10,7 @@
 - [Detection](Detection.md)
 - [Exfiltrated](Exfiltrated.md)
 - [Exghost](Exghost.md)
+- [Fanatastic](Fanatastic.md)
 - [Flimsy](Flimsy.md)
 - [Hawat](Hawat.md)
 - [Hub](Hub.md)

@@ -40,6 +40,7 @@
 - [Detection](Fundamental/Detection.md)
 - [Exfiltrated](Fundamental/Exfiltrated.md)
 - [Exghost](Fundamental/Exghost.md)
+- [Fanatastic](Fundamental/Fanatastic.md)
 - [Flimsy](Fundamental/Flimsy.md)
 - [Hawat](Fundamental/Hawat.md)
 - [Hub](Fundamental/Hub.md)
