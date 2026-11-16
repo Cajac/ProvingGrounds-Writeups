@@ -6,6 +6,8 @@ Welcome to my writeups for proving grounds machines.
 
 These writeups are mainly a documentation for myself but I hope others will benefit from them as well.
 
+Since **reading** writeups is a fair part of my learning process I would like to give back to the community in that regard. In addition, I believe that **writing** them also improve my learning.
+
 This repository is part of my evolving efforts to [build](https://www.buildingasecondbrain.com/) my [second](https://fortelabs.com/blog/basboverview/) [brain](https://fortelabs.com/blog/the-7-benefits-of-building-a-second-brain/).
 
 ## Types
@@ -34,13 +36,23 @@ Are there different and perhaps smarter ways to solve this challenge?
 
 If you appreciate this repository and learn from it, please consider [giving it a star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#starring-a-repository) to support me and spread the word.
 
-## Language disclaimer
-
-I'm not a native English speaker so please forgive any spelling mistakes or grammatical errors.
-
 ## Acknowledgements
 
 Some of the solutions were inspired by writeups and walkthroughs from these guys:
 
 - [0xRave](https://medium.com/@0xrave)
 - [pika5164](https://github.com/pika5164/Offsec_Proving_Grounds)
+
+## Disclaimers
+
+### Hindsight bias
+
+These writeups don't truly reflect how the machines were originally solved. Some failed attemps have been omitted and additional ways of solving the machines might been added.
+
+This common phenomena can be summarized with the following image:
+
+![Solving CTFs and Writeups](Images/Solving_CTFs_and_Writeups.png)
+
+### Language disclaimer
+
+I'm not a native English speaker so please forgive any spelling mistakes or grammatical errors.
