@@ -75,7 +75,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 1219.66 seconds
 ```
 
-### Check the web sites
+### Analyse the web site
 
 Browsing manually to `http://192.168.101.183/` we get a `403 Forbidden` error message:
 
