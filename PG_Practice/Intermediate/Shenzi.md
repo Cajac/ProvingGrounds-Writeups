@@ -447,6 +447,7 @@ For additional information, please see the references below.
 
 ## References
 
+- [AlwaysInstallElevated - Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/msi/alwaysinstallelevated)
 - [Apache HTTP Server - Wikipedia](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
 - [curl - Homepage](https://curl.se/)
 - [curl - Linux manual page](https://man7.org/linux/man-pages/man1/curl.1.html)
