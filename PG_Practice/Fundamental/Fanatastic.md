@@ -468,9 +468,9 @@ sqlite>
 
 So far so good.
 
-### Extract and prepare the hashes
+### Extract and prepare the hash
 
-To convert the hash and salt to a format readable by hashcat we will use [Grafana2Hashcat](https://github.com/iamaldi/grafana2hashcat):
+To convert the hash and salt to a format readable by `hashcat` we will use [Grafana2Hashcat](https://github.com/iamaldi/grafana2hashcat):
 
 ```bash
 ┌──(kali㉿kali)-[/mnt/…/OffSec_PG/PG_Practice/Fundamental/Fanatastic]
@@ -634,7 +634,7 @@ Started: Mon Nov 16 09:40:58 2026
 Stopped: Mon Nov 16 10:03:54 2026
 ```
 
-But when the hash wasn't crack after more then 20 minutes I started to second guess my approach.
+But when the hash wasn't crack after more than 20 minutes I started to second guess my approach.
 
 ### Re-check the Grafana database
 
@@ -837,6 +837,7 @@ For additional information, please see the references below.
 - [OpenSSH - Wikipedia](https://en.wikipedia.org/wiki/OpenSSH)
 - [Prometheus - Homepage](https://prometheus.io/)
 - [Python (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [rockyou.txt wordlist - GitHub](https://github.com/zacheller/rockyou)
 - [searchsploit - Homepage](https://www.exploit-db.com/searchsploit)
 - [searchsploit - Kali Tools](https://www.kali.org/tools/exploitdb/#searchsploit)
 - [Secure Shell - Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
