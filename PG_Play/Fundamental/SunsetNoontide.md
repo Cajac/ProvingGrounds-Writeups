@@ -21,7 +21,8 @@ machine in Virtualbox.
 Released: 21 Dec 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/sunsetnoontide-547/overview/details](https://portal.offsec.com/machine/sunsetnoontide-547/overview/details)
+Machine link: [https://portal.offsec.com/machine/sunsetnoontide-547/overview/details](https://portal.offsec.com/machine/sunsetnoontide-547/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

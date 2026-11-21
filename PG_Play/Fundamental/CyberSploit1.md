@@ -21,7 +21,8 @@ the importance of secure password management and keeping systems updated to prev
 Released: 6 Oct 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/cybersploit1-425/overview/details](https://portal.offsec.com/machine/cybersploit1-425/overview/details)
+Machine link: [https://portal.offsec.com/machine/cybersploit1-425/overview/details](https://portal.offsec.com/machine/cybersploit1-425/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

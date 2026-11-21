@@ -22,7 +22,8 @@ escalation through SUID binaries.
 Released: 20 Jul 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/dawn-129/overview/details](https://portal.offsec.com/machine/dawn-129/overview/details)
+Machine link: [https://portal.offsec.com/machine/dawn-129/overview/details](https://portal.offsec.com/machine/dawn-129/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

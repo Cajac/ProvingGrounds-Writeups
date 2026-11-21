@@ -21,7 +21,8 @@ harness privilege escalation strategies along with the abuse of sudo permissions
 lab is designed to capitalize on your skills in vulnerability exploitation.
 ```
 
-Machine link: [https://portal.offsec.com/machine/potato-445/overview/details](https://portal.offsec.com/machine/potato-445/overview/details)
+Machine link: [https://portal.offsec.com/machine/potato-445/overview/details](https://portal.offsec.com/machine/potato-445/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

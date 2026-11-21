@@ -21,7 +21,8 @@ for the user.
 Released: 2 Nov 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/funboxrookie-467/overview/details](https://portal.offsec.com/machine/funboxrookie-467/overview/details)
+Machine link: [https://portal.offsec.com/machine/funboxrookie-467/overview/details](https://portal.offsec.com/machine/funboxrookie-467/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

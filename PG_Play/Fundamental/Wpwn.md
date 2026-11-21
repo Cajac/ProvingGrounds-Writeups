@@ -20,7 +20,8 @@ user password reuse and open sudo permissions.
 Released: 17 Dec 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/wpwn-542/overview/details](https://portal.offsec.com/machine/wpwn-542/overview/details)
+Machine link: [https://portal.offsec.com/machine/wpwn-542/overview/details](https://portal.offsec.com/machine/wpwn-542/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

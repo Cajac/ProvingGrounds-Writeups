@@ -19,7 +19,8 @@ Leverage enumeration and web enumeration techniques to uncover system weaknesses
 gain elevated access. This lab is designed to harness your skills in vulnerability discovery and exploitation.
 ```
 
-Machine link: [https://portal.offsec.com/machine/election1-39653/overview/details](https://portal.offsec.com/machine/election1-39653/overview/details)
+Machine link: [https://portal.offsec.com/machine/election1-39653/overview/details](https://portal.offsec.com/machine/election1-39653/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

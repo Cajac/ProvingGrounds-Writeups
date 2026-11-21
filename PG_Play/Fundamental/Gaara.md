@@ -21,7 +21,8 @@ privilege escalation. This works better with VirtualBox rather than VMware.
 Released: 4 May 2021
 ```
 
-Machine link: [https://portal.offsec.com/machine/gaara-664/overview/details](https://portal.offsec.com/machine/gaara-664/overview/details)
+Machine link: [https://portal.offsec.com/machine/gaara-664/overview/details](https://portal.offsec.com/machine/gaara-664/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

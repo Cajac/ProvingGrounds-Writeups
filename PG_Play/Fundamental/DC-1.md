@@ -21,7 +21,8 @@ system restrictions.
 Released: 4 Apr 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/dc-1-37495/overview/details](https://portal.offsec.com/machine/dc-1-37495/overview/details)
+Machine link: [https://portal.offsec.com/machine/dc-1-37495/overview/details](https://portal.offsec.com/machine/dc-1-37495/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

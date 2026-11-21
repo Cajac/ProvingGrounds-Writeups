@@ -23,6 +23,7 @@ Released: 20 Jul 2020
 ```
 
 Machine link: [https://portal.offsec.com/machine/sar-124/overview/details](https://portal.offsec.com/machine/sar-124/overview/details)
+Writeup Author: Cajac
 
 ## Solution
 

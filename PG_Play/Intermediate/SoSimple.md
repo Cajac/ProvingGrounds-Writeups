@@ -20,7 +20,8 @@ privilege escalation strategies and harness the abuse of sudo permissions to enh
 designed to capitalize on your skills in vulnerability exploitation.
 ```
 
-Machine link: [https://portal.offsec.com/machine/sosimple-389/overview/details](https://portal.offsec.com/machine/sosimple-389/overview/details)
+Machine link: [https://portal.offsec.com/machine/sosimple-389/overview/details](https://portal.offsec.com/machine/sosimple-389/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

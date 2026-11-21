@@ -22,6 +22,7 @@ Released: 25 Aug 2020
 ```
 
 Machine link: [https://portal.offsec.com/machine/solstice-319/overview/details](https://portal.offsec.com/machine/solstice-319/overview/details)
+Writeup Author: Cajac
 
 ## Solution
 

@@ -23,7 +23,8 @@ enumeration, SSH exploitation, and SUID privilege escalation.
 Released: 23 Feb 2021
 ```
 
-Machine link: [https://portal.offsec.com/machine/onsystemshelldredd-594/overview/details](https://portal.offsec.com/machine/onsystemshelldredd-594/overview/details)
+Machine link: [https://portal.offsec.com/machine/onsystemshelldredd-594/overview/details](https://portal.offsec.com/machine/onsystemshelldredd-594/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

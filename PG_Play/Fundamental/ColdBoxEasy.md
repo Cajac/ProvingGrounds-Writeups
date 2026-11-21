@@ -20,7 +20,8 @@ SUID binary to obtain root access.
 Released: 11 Jan 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/coldboxeasy-207264/overview/details](https://portal.offsec.com/machine/coldboxeasy-207264/overview/details)
+Machine link: [https://portal.offsec.com/machine/coldboxeasy-207264/overview/details](https://portal.offsec.com/machine/coldboxeasy-207264/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

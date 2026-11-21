@@ -20,7 +20,8 @@ by exploiting a misconfigured SUID binary to gain root access.
 Released: 2 Nov 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/moneybox-42547/overview/details](https://portal.offsec.com/machine/moneybox-42547/overview/details)
+Machine link: [https://portal.offsec.com/machine/moneybox-42547/overview/details](https://portal.offsec.com/machine/moneybox-42547/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -20,7 +20,8 @@ with cewl. After gaining initial access via SSH, we will bypass a restricted she
 exploiting the sudo privilege on the git binary to gain root-level access.
 ```
 
-Machine link: [https://portal.offsec.com/machine/dc-2-37499/overview/details](https://portal.offsec.com/machine/dc-2-37499/overview/details)
+Machine link: [https://portal.offsec.com/machine/dc-2-37499/overview/details](https://portal.offsec.com/machine/dc-2-37499/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

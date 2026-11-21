@@ -20,7 +20,8 @@ Samba share. Privilege escalation is achieved via SUID misconfiguration on the /
 Released: 2 Sep 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/photographer-364/overview/details](https://portal.offsec.com/machine/photographer-364/overview/details)
+Machine link: [https://portal.offsec.com/machine/photographer-364/overview/details](https://portal.offsec.com/machine/photographer-364/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

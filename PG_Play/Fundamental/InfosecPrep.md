@@ -20,7 +20,8 @@ user to escalate to root privileges
 Released: 4 Sep 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/infosecprep-399/overview/details](https://portal.offsec.com/machine/infosecprep-399/overview/details)
+Machine link: [https://portal.offsec.com/machine/infosecprep-399/overview/details](https://portal.offsec.com/machine/infosecprep-399/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

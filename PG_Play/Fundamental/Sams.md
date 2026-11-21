@@ -21,6 +21,7 @@ Released: 28 Mar 2023
 ```
 
 Machine link: N/A, This machine is no longer available!
+Writeup Author: Cajac
 
 ## Solution
 

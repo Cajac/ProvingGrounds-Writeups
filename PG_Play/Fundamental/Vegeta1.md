@@ -20,7 +20,8 @@ allowing the creation of a root-equivalent user.
 Released: 25 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/vegeta1-314/overview/details](https://portal.offsec.com/machine/vegeta1-314/overview/details)
+Machine link: [https://portal.offsec.com/machine/vegeta1-314/overview/details](https://portal.offsec.com/machine/vegeta1-314/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

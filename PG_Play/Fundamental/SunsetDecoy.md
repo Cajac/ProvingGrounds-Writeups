@@ -20,7 +20,8 @@ vulnerability in Chkrootkit v0.49 that allows arbitrary command execution as roo
 Released: 16 Sep 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/sunsetdecoy-419/overview/details](https://portal.offsec.com/machine/sunsetdecoy-419/overview/details)
+Machine link: [https://portal.offsec.com/machine/sunsetdecoy-419/overview/details](https://portal.offsec.com/machine/sunsetdecoy-419/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

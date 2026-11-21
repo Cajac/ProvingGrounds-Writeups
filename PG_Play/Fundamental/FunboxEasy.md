@@ -21,7 +21,8 @@ through tools like pkexec or time.
 Released: 16 Nov 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/funboxeasy-497/overview/details](https://portal.offsec.com/machine/funboxeasy-497/overview/details)
+Machine link: [https://portal.offsec.com/machine/funboxeasy-497/overview/details](https://portal.offsec.com/machine/funboxeasy-497/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 
