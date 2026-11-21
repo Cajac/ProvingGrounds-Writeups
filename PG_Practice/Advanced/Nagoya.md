@@ -243,7 +243,6 @@ Joanne      Lewis
 Then we use [Username Anarchy](https://github.com/urbanadventurer/username-anarchy) to create a list of possible username in the formats:
 
 - first.last
-- First.Last
 - f.last
 - flast
 - last.f
