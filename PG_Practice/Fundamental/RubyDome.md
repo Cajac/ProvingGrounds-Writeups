@@ -22,7 +22,8 @@ sudo privilege abuse, and RCE chaining for full system compromise.
 Released: 16 Jun 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/rubydome-50401/overview/details](https://portal.offsec.com/machine/rubydome-50401/overview/details)
+Machine link: [https://portal.offsec.com/machine/rubydome-50401/overview/details](https://portal.offsec.com/machine/rubydome-50401/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

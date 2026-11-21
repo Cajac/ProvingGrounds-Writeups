@@ -22,7 +22,8 @@ exploitation and highlights the risks of unpatched software.
 Released: 3 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/algernon-239/overview/details](https://portal.offsec.com/machine/algernon-239/overview/details)
+Machine link: [https://portal.offsec.com/machine/algernon-239/overview/details](https://portal.offsec.com/machine/algernon-239/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

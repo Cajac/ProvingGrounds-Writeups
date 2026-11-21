@@ -23,7 +23,8 @@ escalation through credential disclosure.
 Released: 31 Aug 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/plum-52208/overview/details](https://portal.offsec.com/machine/plum-52208/overview/details)
+Machine link: [https://portal.offsec.com/machine/plum-52208/overview/details](https://portal.offsec.com/machine/plum-52208/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -21,7 +21,8 @@ elevate access to system privileges. This lab focuses on enumeration techniques 
 methods.
 ```
 
-Machine link: [https://portal.offsec.com/machine/resourced-36043/overview/details](https://portal.offsec.com/machine/resourced-36043/overview/details)
+Machine link: [https://portal.offsec.com/machine/resourced-36043/overview/details](https://portal.offsec.com/machine/resourced-36043/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -22,7 +22,8 @@ web application exploitation, cron job abuse, and privilege escalation through m
 Released: 6 Sep 2021
 ```
 
-Machine link: [https://portal.offsec.com/machine/exfiltrated-17398/overview/details](https://portal.offsec.com/machine/exfiltrated-17398/overview/details)
+Machine link: [https://portal.offsec.com/machine/exfiltrated-17398/overview/details](https://portal.offsec.com/machine/exfiltrated-17398/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

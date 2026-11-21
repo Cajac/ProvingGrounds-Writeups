@@ -22,7 +22,8 @@ Released: 8 Jun 2021
 Retired: 18 May 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/hawat-15710/overview/details](https://portal.offsec.com/machine/hawat-15710/overview/details)
+Machine link: [https://portal.offsec.com/machine/hawat-15710/overview/details](https://portal.offsec.com/machine/hawat-15710/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -20,7 +20,8 @@ DVR software to access an SSH key. Privileges will then be elevated by decoding 
 found in a configuration file. This lab focuses on exploiting vulnerabilities and privilege escalation methods.
 ```
 
-Machine link: [https://portal.offsec.com/machine/dvr4-36048/overview/details](https://portal.offsec.com/machine/dvr4-36048/overview/details)
+Machine link: [https://portal.offsec.com/machine/dvr4-36048/overview/details](https://portal.offsec.com/machine/dvr4-36048/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

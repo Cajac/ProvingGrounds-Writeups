@@ -20,7 +20,8 @@ remote code execution in the exif tool. Privilege escalation will then be achiev
 version of the policykit-1 package. This lab focuses on brute-force techniques and privilege escalation methods.
 ```
 
-Machine link: [https://portal.offsec.com/machine/exghost-37039/overview/details](https://portal.offsec.com/machine/exghost-37039/overview/details)
+Machine link: [https://portal.offsec.com/machine/exghost-37039/overview/details](https://portal.offsec.com/machine/exghost-37039/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -21,7 +21,8 @@ RCE exploitation via YAML manipulation, and SUID abuse for privilege escalation.
 Released: 6 Apr 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/astronaut-49479/overview/details](https://portal.offsec.com/machine/astronaut-49479/overview/details)
+Machine link: [https://portal.offsec.com/machine/astronaut-49479/overview/details](https://portal.offsec.com/machine/astronaut-49479/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

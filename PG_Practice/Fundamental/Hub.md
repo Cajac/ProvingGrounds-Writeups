@@ -22,7 +22,8 @@ exploitation, and achieving initial access on the target system.
 Released: 16 Jun 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/hub-50416/overview/details](https://portal.offsec.com/machine/hub-50416/overview/details)
+Machine link: [https://portal.offsec.com/machine/hub-50416/overview/details](https://portal.offsec.com/machine/hub-50416/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

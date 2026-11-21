@@ -22,7 +22,8 @@ exploitation, file upload vulnerabilities, and initial foothold techniques.
 Released: 16 Jun 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/codo-50406/overview/details](https://portal.offsec.com/machine/codo-50406/overview/details)
+Machine link: [https://portal.offsec.com/machine/codo-50406/overview/details](https://portal.offsec.com/machine/codo-50406/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

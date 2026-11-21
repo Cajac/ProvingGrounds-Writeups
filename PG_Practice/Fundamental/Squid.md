@@ -20,7 +20,8 @@ Privileges will then be elevated by creating scheduled tasks to enable restricte
 focuses on exploiting proxy configurations and privilege escalation methods.
 ```
 
-Machine link: [https://portal.offsec.com/machine/squid-38173/overview/details](https://portal.offsec.com/machine/squid-38173/overview/details)
+Machine link: [https://portal.offsec.com/machine/squid-38173/overview/details](https://portal.offsec.com/machine/squid-38173/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

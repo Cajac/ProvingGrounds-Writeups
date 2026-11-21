@@ -21,7 +21,8 @@ the lab covers abusing SUID binaries to exploit privilege flaws. This lab focuse
 vulnerabilities to understand system weaknesses.
 ```
 
-Machine link: [https://portal.offsec.com/machine/mzeeav-150716/overview/details](https://portal.offsec.com/machine/mzeeav-150716/overview/details)
+Machine link: [https://portal.offsec.com/machine/mzeeav-150716/overview/details](https://portal.offsec.com/machine/mzeeav-150716/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

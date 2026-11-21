@@ -22,7 +22,8 @@ Released: 3 Aug 2020
 Retired: 18 May 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/pebbles-304/overview/details](https://portal.offsec.com/machine/pebbles-304/overview/details)
+Machine link: [https://portal.offsec.com/machine/pebbles-304/overview/details](https://portal.offsec.com/machine/pebbles-304/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

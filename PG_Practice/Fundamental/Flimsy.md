@@ -23,7 +23,8 @@ exploitation, cronjob abuse, and misconfigured package management for root acces
 Released: 30 Aug 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/flimsy-40299/overview/details](https://portal.offsec.com/machine/flimsy-40299/overview/details)
+Machine link: [https://portal.offsec.com/machine/flimsy-40299/overview/details](https://portal.offsec.com/machine/flimsy-40299/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

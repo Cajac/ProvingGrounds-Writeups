@@ -21,7 +21,8 @@ for root-level access to the system. This lab focuses on exploiting application 
 escalation methods.
 ```
 
-Machine link: [https://portal.offsec.com/machine/fanatastic-37029/overview/details](https://portal.offsec.com/machine/fanatastic-37029/overview/details)
+Machine link: [https://portal.offsec.com/machine/fanatastic-37029/overview/details](https://portal.offsec.com/machine/fanatastic-37029/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

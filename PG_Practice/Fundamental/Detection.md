@@ -21,7 +21,8 @@ commands, leading to Remote Code Execution (RCE) and a full server compromise.
 Released: 29 Aug 2024
 ```
 
-Machine link: [https://portal.offsec.com/machine/detection-184328/overview/details](https://portal.offsec.com/machine/detection-184328/overview/details)
+Machine link: [https://portal.offsec.com/machine/detection-184328/overview/details](https://portal.offsec.com/machine/detection-184328/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

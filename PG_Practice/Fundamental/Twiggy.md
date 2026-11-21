@@ -21,7 +21,8 @@ lab highlights the risks of unpatched critical vulnerabilities in infrastructure
 Released: 3 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/twiggy-244/overview/details](https://portal.offsec.com/machine/twiggy-244/overview/details)
+Machine link: [https://portal.offsec.com/machine/twiggy-244/overview/details](https://portal.offsec.com/machine/twiggy-244/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

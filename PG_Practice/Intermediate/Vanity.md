@@ -22,7 +22,8 @@ malicious files, learners can execute arbitrary commands as root. This lab empha
 wildcard abuse, and cron job exploitation for full system compromise.
 ```
 
-Machine link: [https://portal.offsec.com/machine/vanity-42542/overview/details](https://portal.offsec.com/machine/vanity-42542/overview/details)
+Machine link: [https://portal.offsec.com/machine/vanity-42542/overview/details](https://portal.offsec.com/machine/vanity-42542/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

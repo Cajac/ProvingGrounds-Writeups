@@ -23,7 +23,8 @@ web exploitation, and privilege escalation via sudo permissions.
 Released: 31 Aug 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/bullybox-52203/overview/details](https://portal.offsec.com/machine/bullybox-52203/overview/details)
+Machine link: [https://portal.offsec.com/machine/bullybox-52203/overview/details](https://portal.offsec.com/machine/bullybox-52203/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

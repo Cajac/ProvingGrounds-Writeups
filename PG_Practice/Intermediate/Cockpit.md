@@ -23,7 +23,8 @@ for root access.
 Released: 6 Apr 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/cockpit-49474/overview/details](https://portal.offsec.com/machine/cockpit-49474/overview/details)
+Machine link: [https://portal.offsec.com/machine/cockpit-49474/overview/details](https://portal.offsec.com/machine/cockpit-49474/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -22,7 +22,8 @@ serialized payload crafting using pickle, and SUID abuse for privilege escalatio
 Released: 31 Aug 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/pc-52193/overview/details](https://portal.offsec.com/machine/pc-52193/overview/details)
+Machine link: [https://portal.offsec.com/machine/pc-52193/overview/details](https://portal.offsec.com/machine/pc-52193/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

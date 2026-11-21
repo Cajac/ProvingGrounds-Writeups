@@ -21,7 +21,8 @@ on the target machine, highlighting critical concepts of SMTP service exploitati
 Released: 6 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/bratarina-159/overview/details](https://portal.offsec.com/machine/bratarina-159/overview/details)
+Machine link: [https://portal.offsec.com/machine/bratarina-159/overview/details](https://portal.offsec.com/machine/bratarina-159/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

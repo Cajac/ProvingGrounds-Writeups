@@ -23,7 +23,8 @@ Released: 3 Aug 2020
 Retired: 1 Oct 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/kevin-189/overview/details](https://portal.offsec.com/machine/kevin-189/overview/details)
+Machine link: [https://portal.offsec.com/machine/kevin-189/overview/details](https://portal.offsec.com/machine/kevin-189/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

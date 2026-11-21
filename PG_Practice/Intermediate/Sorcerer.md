@@ -22,7 +22,8 @@ persistence, and utilizing SUID binaries for privilege escalation.
 Released: 2 Nov 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/sorcerer-472/overview/details](https://portal.offsec.com/machine/sorcerer-472/overview/details)
+Machine link: [https://portal.offsec.com/machine/sorcerer-472/overview/details](https://portal.offsec.com/machine/sorcerer-472/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

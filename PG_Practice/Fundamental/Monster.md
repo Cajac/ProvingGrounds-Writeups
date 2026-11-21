@@ -23,7 +23,8 @@ cracking, and local privilege escalation through misconfigured services.
 Released: 7 Mar 2022
 ```
 
-Machine link: [https://portal.offsec.com/machine/monster-37024/overview/details](https://portal.offsec.com/machine/monster-37024/overview/details)
+Machine link: [https://portal.offsec.com/machine/monster-37024/overview/details](https://portal.offsec.com/machine/monster-37024/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

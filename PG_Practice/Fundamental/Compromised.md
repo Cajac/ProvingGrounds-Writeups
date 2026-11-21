@@ -22,7 +22,8 @@ lab emphasizes SMB enumeration, PowerShell analysis, and credential exploitation
 Released: 26 Jul 2021
 ```
 
-Machine link: [https://portal.offsec.com/machine/compromised-17336/overview/details](https://portal.offsec.com/machine/compromised-17336/overview/details)
+Machine link: [https://portal.offsec.com/machine/compromised-17336/overview/details](https://portal.offsec.com/machine/compromised-17336/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

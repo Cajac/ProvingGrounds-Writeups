@@ -21,7 +21,8 @@ This exercise enhances your skills in vulnerability exploitation and privilege e
 Released: 3 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/slort-269/overview/details](https://portal.offsec.com/machine/slort-269/overview/details)
+Machine link: [https://portal.offsec.com/machine/slort-269/overview/details](https://portal.offsec.com/machine/slort-269/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -22,7 +22,8 @@ of patching legacy systems and the risks associated with unpatched SMB services.
 Released: 3 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/internal-169/overview/details](https://portal.offsec.com/machine/internal-169/overview/details)
+Machine link: [https://portal.offsec.com/machine/internal-169/overview/details](https://portal.offsec.com/machine/internal-169/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

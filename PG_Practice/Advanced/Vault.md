@@ -20,7 +20,8 @@ this, SYSTEM privilege will be elevated by abusing write access on a Group Polic
 exploiting SMB vulnerabilities and privilege escalation techniques.
 ```
 
-Machine link: [https://portal.offsec.com/machine/vault-33015/overview/details](https://portal.offsec.com/machine/vault-33015/overview/details)
+Machine link: [https://portal.offsec.com/machine/vault-33015/overview/details](https://portal.offsec.com/machine/vault-33015/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

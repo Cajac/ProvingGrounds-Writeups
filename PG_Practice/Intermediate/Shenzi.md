@@ -21,7 +21,8 @@ this lab for initial access. Following this, you will exploit an insecure regist
 privilege escalation through misconfigurations.
 ```
 
-Machine link: [https://portal.offsec.com/machine/shenzi-284/overview/details](https://portal.offsec.com/machine/shenzi-284/overview/details)
+Machine link: [https://portal.offsec.com/machine/shenzi-284/overview/details](https://portal.offsec.com/machine/shenzi-284/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

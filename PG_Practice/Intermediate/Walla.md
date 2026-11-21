@@ -23,7 +23,8 @@ techniques in Python.
 Released: 15 Mar 2021
 ```
 
-Machine link: [https://portal.offsec.com/machine/walla-619/overview/details](https://portal.offsec.com/machine/walla-619/overview/details)
+Machine link: [https://portal.offsec.com/machine/walla-619/overview/details](https://portal.offsec.com/machine/walla-619/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

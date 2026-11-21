@@ -21,7 +21,8 @@ of improper service configuration and exposed database ports.
 Released: 3 Aug 2020
 ```
 
-Machine link: [https://portal.offsec.com/machine/wombo-219/overview/details](https://portal.offsec.com/machine/wombo-219/overview/details)
+Machine link: [https://portal.offsec.com/machine/wombo-219/overview/details](https://portal.offsec.com/machine/wombo-219/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

@@ -23,7 +23,8 @@ exploitation, sensitive file abuse, and password cracking for privilege escalati
 Released: 6 Apr 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/extplorer-49489/overview/details](https://portal.offsec.com/machine/extplorer-49489/overview/details)
+Machine link: [https://portal.offsec.com/machine/extplorer-49489/overview/details](https://portal.offsec.com/machine/extplorer-49489/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

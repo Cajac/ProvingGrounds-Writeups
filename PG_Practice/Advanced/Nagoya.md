@@ -20,7 +20,8 @@ You'll also learn password cracking methods and ticket generation processes. Thi
 in privilege escalation and credential harvesting.
 ```
 
-Machine link: [https://portal.offsec.com/machine/nagoya-50426/overview/details](https://portal.offsec.com/machine/nagoya-50426/overview/details)
+Machine link: [https://portal.offsec.com/machine/nagoya-50426/overview/details](https://portal.offsec.com/machine/nagoya-50426/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 

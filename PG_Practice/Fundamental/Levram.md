@@ -23,7 +23,8 @@ binary capabilities abuse, and service misconfiguration for privilege escalation
 Released: 16 Jun 2023
 ```
 
-Machine link: [https://portal.offsec.com/machine/levram-50411/overview/details](https://portal.offsec.com/machine/levram-50411/overview/details)
+Machine link: [https://portal.offsec.com/machine/levram-50411/overview/details](https://portal.offsec.com/machine/levram-50411/overview/details)  
+Writeup Author: Cajac
 
 ## Solution
 
