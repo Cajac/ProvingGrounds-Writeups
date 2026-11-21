@@ -6,6 +6,7 @@
 
 ### Advanced Windows Machines
 
+- [Nagoya](Advanced/Nagoya.md)
 - [Vault](Advanced/Vault.md)
 
 ## Intermediate Machines

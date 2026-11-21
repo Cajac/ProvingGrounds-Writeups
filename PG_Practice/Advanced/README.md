@@ -2,4 +2,5 @@
 
 ## Advanced Windows Machines
 
+- [Nagoya](Nagoya.md)
 - [Vault](Vault.md)
