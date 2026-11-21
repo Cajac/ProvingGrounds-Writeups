@@ -8,6 +8,8 @@ These writeups are mainly a documentation for myself but I hope others will bene
 
 Since **reading** writeups is a fair part of my learning process I would like to give back to the community in that regard. In addition, I believe that **writing** them also improve my learning.
 
+In total you will find writeups for **more than 60 machines** here.
+
 This repository is part of my evolving efforts to [build](https://www.buildingasecondbrain.com/) my [second](https://fortelabs.com/blog/basboverview/) [brain](https://fortelabs.com/blog/the-7-benefits-of-building-a-second-brain/).
 
 ## Types
